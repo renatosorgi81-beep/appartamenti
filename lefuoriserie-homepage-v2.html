@@ -1,0 +1,2125 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Le Fuoriserie — Appartamenti di Charme a Palermo | Centro Storico UNESCO</title>
+
+<!-- SEO Meta -->
+<meta name="description" content="3 appartamenti esclusivi nel cuore storico di Palermo. Casa Monviso, Casa Viotti, Casa Zagato. Prenotazione diretta senza commissioni. Tour in auto d'epoca, esperienze autentiche siciliane.">
+<meta name="keywords" content="appartamenti Palermo centro storico, affitto breve Palermo, B&B Palermo, Quattro Canti, mercato del Capo, Le Fuoriserie">
+<meta name="author" content="Daniele Mancuso — Le Fuoriserie Appartamenti">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://lefuoriserieappartamenti.com">
+
+<!-- Open Graph (condivisioni social e WhatsApp) -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lefuoriserieappartamenti.com">
+<meta property="og:title" content="Le Fuoriserie — Appartamenti di Charme a Palermo">
+<meta property="og:description" content="3 appartamenti esclusivi nel cuore storico di Palermo. Prenotazione diretta, nessuna commissione. Tour in auto d'epoca.">
+<meta property="og:image" content="https://lefuoriserieappartamenti.com/wp-content/uploads/2021/11/palermo-centro-storico-_9673_850x0.jpg">
+<meta property="og:locale" content="it_IT">
+<meta property="og:locale:alternate" content="en_GB">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Le Fuoriserie — Appartamenti di Charme a Palermo">
+<meta name="twitter:description" content="3 appartamenti nel cuore storico di Palermo. Prenotazione diretta.">
+<meta name="twitter:image" content="https://lefuoriserieappartamenti.com/wp-content/uploads/2021/11/palermo-centro-storico-_9673_850x0.jpg">
+
+<!-- Schema.org structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LodgingBusiness",
+  "name": "Le Fuoriserie Appartamenti",
+  "description": "3 appartamenti di charme nel cuore storico di Palermo",
+  "url": "https://lefuoriserieappartamenti.com",
+  "telephone": "+393505108301",
+  "email": "lefuoriserieappartamenti@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via del Ponticello, 5",
+    "addressLocality": "Palermo",
+    "postalCode": "90100",
+    "addressCountry": "IT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.1141904,
+    "longitude": 13.3622901
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "50",
+    "bestRating": "5"
+  }
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ═══════════════════════════
+   TOKENS & RESET
+═══════════════════════════ */
+:root {
+  --oro:#C8A84B; --oro-lt:#E2C878; --oro-dk:#9A7A2E;
+  --nero:#0F0B06; --nero2:#1A1208;
+  --crema:#F6EED8; --crema2:#EAE0C4;
+  --bianco:#FDFAF3; --grigio:#7A6E5E;
+  --terra:#B05030; --verde:#2A5018;
+  --silk:cubic-bezier(.25,.46,.45,.94);
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Montserrat',sans-serif;background:var(--bianco);color:var(--nero);overflow-x:hidden}
+img{display:block;max-width:100%}
+a{text-decoration:none;color:inherit}
+
+/* ═══════════════════════════
+   MENU CSS-ONLY (checkbox)
+═══════════════════════════ */
+#nav-cb{display:none}
+#nav-cb:checked ~ .site-wrap .nav-overlay{display:flex}
+#nav-cb:checked ~ .site-wrap .nav-ham span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+#nav-cb:checked ~ .site-wrap .nav-ham span:nth-child(2){opacity:0}
+#nav-cb:checked ~ .site-wrap .nav-ham span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+
+.nav-overlay{
+  display:none; position:fixed; inset:0; z-index:990;
+  background:rgba(15,11,6,0.99);
+  flex-direction:column; align-items:center; justify-content:center;
+}
+.nav-ov-inner{
+  display:flex; flex-direction:column; align-items:center;
+  gap:0; width:100%; max-width:400px;
+}
+.nav-ov-inner a{
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(1.8rem,6vw,2.8rem); font-weight:300;
+  color:var(--crema); letter-spacing:0.04em;
+  padding:0.75rem 2rem; width:100%; text-align:center;
+  border-bottom:1px solid rgba(200,168,75,0.1);
+  transition:color 0.3s;
+}
+.nav-ov-inner a:hover{color:var(--oro)}
+.nav-ov-inner a:last-child{border-bottom:none}
+.ov-cta{
+  margin-top:1.5rem !important;
+  background:var(--oro) !important; color:var(--nero) !important;
+  font-family:'Montserrat',sans-serif !important;
+  font-size:0.68rem !important; letter-spacing:0.3em !important;
+  font-weight:700 !important; padding:0.9rem 2.5rem !important;
+  border-bottom:none !important; width:auto !important;
+}
+.nav-close-lbl{
+  position:absolute; top:1.5rem; right:1.8rem;
+  font-size:2rem; color:rgba(246,238,216,0.4);
+  cursor:pointer; transition:color 0.3s; line-height:1;
+}
+.nav-close-lbl:hover{color:var(--oro)}
+
+/* ═══════════════════════════
+   NAV
+═══════════════════════════ */
+.nav{
+  position:fixed; top:0; left:0; right:0; z-index:900;
+  height:64px; display:flex; align-items:center;
+  justify-content:space-between; padding:0 2rem;
+  background:linear-gradient(to bottom,rgba(15,11,6,0.75),transparent);
+  transition:background 0.4s;
+}
+.nav.solid{background:rgba(15,11,6,0.97)!important}
+.nav-logo{display:flex;align-items:center;gap:0.7rem}
+.nav-diamond{
+  width:30px; height:30px; border:1.5px solid var(--oro);
+  transform:rotate(45deg); display:flex; align-items:center;
+  justify-content:center; flex-shrink:0;
+}
+.nav-diamond span{transform:rotate(-45deg);font-size:0.75rem}
+.nav-logo-name{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:600;color:#fff;letter-spacing:0.04em}
+.nav-logo-sub{font-size:0.47rem;letter-spacing:0.4em;text-transform:uppercase;color:var(--oro);display:block}
+.nav-links{display:flex;gap:0.2rem;list-style:none;align-items:center}
+.nav-links a{font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:rgba(255,255,255,0.65);padding:0.5rem 0.8rem;transition:color 0.3s}
+.nav-links a:hover{color:#fff}
+.nav-links .ncta{background:var(--oro);color:var(--nero)!important;font-weight:700;padding:0.55rem 1.2rem;margin-left:0.4rem}
+.nav-links .ncta:hover{background:var(--oro-lt)}
+.nav-ham{
+  display:none; flex-direction:column; gap:5px;
+  cursor:pointer; padding:6px; background:none; border:none;
+}
+.nav-ham span{
+  display:block; width:24px; height:2px;
+  background:#fff; border-radius:1px;
+  pointer-events:none; transition:all 0.3s;
+}
+
+/* ═══════════════════════════
+   LANGUAGE TOGGLE
+═══════════════════════════ */
+.lang-toggle{
+  display:flex; gap:0; border:1px solid rgba(200,168,75,0.3);
+  overflow:hidden; margin-left:0.8rem;
+}
+.lang-btn{
+  font-size:0.52rem; letter-spacing:0.15em; text-transform:uppercase;
+  color:rgba(255,255,255,0.5); padding:0.3rem 0.6rem;
+  cursor:pointer; transition:all 0.3s; border:none; background:none;
+  font-family:'Montserrat',sans-serif;
+}
+.lang-btn.active{background:var(--oro);color:var(--nero);font-weight:700}
+
+/* ═══════════════════════════
+   HERO
+═══════════════════════════ */
+.hero{
+  height:100svh; min-height:600px; position:relative;
+  overflow:hidden; display:flex; align-items:center; justify-content:center;
+}
+.hero-bg{
+  position:absolute; inset:0;
+  background:
+    linear-gradient(to bottom,rgba(15,11,6,.72) 0%,rgba(15,11,6,.55) 30%,rgba(15,11,6,.82) 70%,rgba(15,11,6,.99) 100%),
+    url('https://lefuoriserieappartamenti.com/wp-content/uploads/2021/11/palermo-centro-storico-_9673_850x0.jpg')
+    center/cover no-repeat;
+  animation:kbz 18s ease-in-out infinite alternate;
+}
+@keyframes kbz{from{transform:scale(1)}to{transform:scale(1.07)}}
+.hero-content{
+  position:relative; z-index:2;
+  text-align:center; padding:80px 1.5rem 2rem;
+  max-width:860px; width:100%;
+}
+.hero-badge{
+  display:inline-flex; align-items:center; gap:0.5rem;
+  border:1px solid rgba(200,168,75,0.45);
+  background:rgba(200,168,75,0.12); backdrop-filter:blur(8px);
+  padding:0.35rem 1rem; font-size:0.5rem;
+  letter-spacing:0.35em; text-transform:uppercase;
+  color:var(--oro-lt); margin-bottom:1.5rem;
+}
+.hero-title{
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(2.8rem,10vw,7rem); font-weight:300;
+  color:#fff; line-height:1; margin-bottom:0.8rem;
+  text-shadow:0 4px 30px rgba(0,0,0,.5);
+}
+.hero-title em{font-style:italic;color:var(--oro-lt);display:block}
+.hero-sub{
+  font-size:0.6rem; letter-spacing:0.3em; text-transform:uppercase;
+  color:rgba(255,255,255,.65); margin-bottom:2rem; line-height:1.8;
+}
+/* booking widget */
+.hero-book{
+  background:rgba(15,11,6,.85); backdrop-filter:blur(16px);
+  border:1px solid rgba(200,168,75,.25); padding:1.2rem 1.5rem;
+  display:grid; grid-template-columns:1fr 1fr 1fr 1fr auto;
+  gap:0; align-items:end; max-width:760px; margin:0 auto;
+}
+.hbf{padding:0 0.9rem;border-right:1px solid rgba(200,168,75,.12)}
+.hbf:last-of-type{border-right:none}
+.hbl{display:block;font-size:0.47rem;letter-spacing:0.3em;text-transform:uppercase;color:var(--oro);margin-bottom:0.4rem}
+.hbi{
+  width:100%; background:transparent; border:none; outline:none;
+  font-family:'Montserrat',sans-serif; font-size:0.75rem;
+  color:#fff; padding:0.25rem 0;
+  border-bottom:1px solid rgba(200,168,75,.3);
+  appearance:none; -webkit-appearance:none;
+}
+.hbi option{background:var(--nero2)}
+.hbb{
+  background:var(--oro); color:var(--nero); border:none;
+  padding:0.9rem 1.4rem; margin-left:0.8rem;
+  font-family:'Montserrat',sans-serif; font-size:0.6rem;
+  letter-spacing:0.25em; font-weight:700;
+  cursor:pointer; white-space:nowrap; transition:background .3s;
+}
+.hbb:hover{background:var(--oro-lt)}
+
+/* ═══════════════════════════
+   TRUST BAR
+═══════════════════════════ */
+.trust{background:var(--nero2);border-bottom:1px solid rgba(200,168,75,.15);display:flex;justify-content:center}
+.ti{flex:1;max-width:280px;display:flex;align-items:center;gap:0.7rem;padding:1.2rem 1.5rem;border-right:1px solid rgba(200,168,75,.1)}
+.ti:last-child{border-right:none}
+.ti-ico{font-size:1.3rem;flex-shrink:0}
+.ti-t{font-size:0.7rem;color:#fff;font-weight:600;display:block;margin-bottom:1px}
+.ti-s{font-size:0.54rem;color:rgba(255,255,255,.38);letter-spacing:0.07em}
+
+/* ═══════════════════════════
+   PATTERN SICILIANO
+═══════════════════════════ */
+.rule{height:5px;background:repeating-linear-gradient(90deg,var(--oro) 0 8px,var(--terra) 8px 16px,var(--verde) 16px 24px,var(--oro) 24px 32px)}
+
+/* ═══════════════════════════
+   SECTION HEADER
+═══════════════════════════ */
+.sh{text-align:center;margin-bottom:3.5rem}
+.sh-eye{font-size:0.54rem;letter-spacing:0.5em;text-transform:uppercase;color:var(--oro);display:block;margin-bottom:0.7rem}
+.sh-h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.9rem,4vw,3rem);font-weight:300;line-height:1.1;color:var(--nero)}
+.sh-h2 em{font-style:italic;color:var(--terra)}
+.sh-line{width:44px;height:1px;background:var(--oro);margin:1.1rem auto 0}
+
+/* ═══════════════════════════
+   APPARTAMENTI
+═══════════════════════════ */
+.s-apt{padding:5.5rem 2rem;background:var(--bianco)}
+.apt-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:3px}
+.apt-card{position:relative;overflow:hidden;background:var(--nero);display:block}
+.apt-img{width:100%;aspect-ratio:3/4;object-fit:cover;filter:brightness(.85);transition:all .8s var(--silk)}
+.apt-card.big .apt-img{aspect-ratio:2/3}
+.apt-card:hover .apt-img{transform:scale(1.06);filter:brightness(.5)}
+.apt-grad{position:absolute;inset:0;background:linear-gradient(to top,rgba(15,11,6,.97) 0%,rgba(15,11,6,.1) 55%,transparent 100%)}
+.apt-info{position:absolute;inset:0;padding:1.8rem;display:flex;flex-direction:column;justify-content:flex-end}
+.apt-eye{font-size:0.5rem;letter-spacing:0.35em;text-transform:uppercase;color:var(--oro);margin-bottom:0.3rem}
+.apt-name{font-family:'Cormorant Garamond',serif;font-size:1.9rem;font-weight:300;color:#fff;line-height:1}
+.apt-name em{font-style:italic}
+.apt-card.big .apt-name{font-size:2.3rem}
+.apt-loc{font-size:0.55rem;color:rgba(255,255,255,.35);letter-spacing:.1em;text-transform:uppercase;margin:.35rem 0 .7rem}
+.apt-feats{display:flex;gap:.8rem;margin-bottom:.9rem;opacity:0;transform:translateY(6px);transition:all .4s}
+.apt-card:hover .apt-feats{opacity:1;transform:translateY(0)}
+.apt-feat{font-size:0.58rem;color:rgba(255,255,255,.5)}
+.apt-feat::before{content:'· ';color:var(--oro)}
+.apt-desc{font-size:0.68rem;color:rgba(255,255,255,.5);line-height:1.65;max-height:0;overflow:hidden;transition:max-height .5s;margin-bottom:0}
+.apt-card:hover .apt-desc{max-height:80px;margin-bottom:.9rem}
+.apt-btns{display:flex;gap:.5rem;flex-wrap:wrap;opacity:0;transform:translateY(6px);transition:all .4s .05s}
+.apt-card:hover .apt-btns{opacity:1;transform:translateY(0)}
+.ab-main{background:var(--oro);color:var(--nero);padding:.5rem 1.1rem;font-size:0.56rem;letter-spacing:.22em;text-transform:uppercase;font-weight:700;border:1px solid var(--oro);transition:all .3s}
+.ab-main:hover{background:transparent;color:var(--oro)}
+.ab-ext{border:1px solid rgba(200,168,75,.35);color:var(--oro);padding:.5rem .8rem;font-size:0.56rem;letter-spacing:.18em;text-transform:uppercase;transition:all .3s}
+.ab-ext:hover{background:rgba(200,168,75,.08)}
+/* Nota "prezzi indicativi" */
+.apt-price-note{text-align:center;margin-top:2rem;font-size:0.62rem;color:var(--grigio);font-style:italic}
+.apt-price-note a{color:var(--oro);text-decoration:underline}
+
+/* ═══════════════════════════
+   TOUR SIGNATURE
+═══════════════════════════ */
+.s-tour{position:relative;overflow:hidden;min-height:520px;display:flex;background:var(--nero)}
+.tour-bg{
+  position:absolute;inset:0;
+  background:
+    linear-gradient(105deg,rgba(15,11,6,.97) 0%,rgba(15,11,6,.82) 42%,rgba(15,11,6,.2) 72%,transparent 100%),
+    url('https://lefuoriserieappartamenti.com/wp-content/uploads/2023/10/fuori-le-mura.jpg')
+    center/cover no-repeat;
+}
+.tour-side{position:relative;z-index:1;padding:4.5rem 2rem 4.5rem 4rem;max-width:580px;display:flex;flex-direction:column;justify-content:center}
+.tour-eye{font-size:0.55rem;letter-spacing:.5em;text-transform:uppercase;color:var(--oro);margin-bottom:.9rem;display:block}
+.tour-h2{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4vw,3.2rem);font-weight:300;color:#fff;line-height:1.05;margin-bottom:1.3rem}
+.tour-h2 em{font-style:italic;color:var(--oro-lt);display:block}
+.tour-p{font-size:0.76rem;color:rgba(255,255,255,.55);line-height:1.9;margin-bottom:1.8rem;max-width:440px}
+.tour-tags{display:flex;flex-wrap:wrap;gap:.45rem;margin-bottom:2rem}
+.ttag{font-size:0.56rem;color:rgba(255,255,255,.5);border:1px solid rgba(200,168,75,.25);padding:.3rem .75rem;letter-spacing:.12em;text-transform:uppercase}
+.tour-btns{display:flex;gap:.9rem;flex-wrap:wrap}
+.btn-gold{background:var(--oro);color:var(--nero);padding:.9rem 2rem;font-size:0.62rem;letter-spacing:.25em;text-transform:uppercase;font-weight:700;border:1.5px solid var(--oro);transition:all .3s;display:inline-block}
+.btn-gold:hover{background:transparent;color:var(--oro)}
+.btn-ghost{border:1.5px solid rgba(200,168,75,.35);color:rgba(255,255,255,.7);padding:.9rem 2rem;font-size:0.62rem;letter-spacing:.25em;text-transform:uppercase;transition:all .3s;display:inline-block}
+.btn-ghost:hover{border-color:var(--oro);color:var(--oro)}
+
+/* ═══════════════════════════
+   RECENSIONI
+   NOTA: da sostituire con recensioni reali di Airbnb/Google
+═══════════════════════════ */
+.s-rec{padding:5.5rem 2rem;background:var(--crema2)}
+.rec-scores{display:flex;max-width:600px;margin:0 auto 3.5rem;border:1px solid rgba(200,168,75,.2);background:#fff}
+.rs-item{flex:1;text-align:center;padding:1.8rem 1rem;border-right:1px solid rgba(200,168,75,.15)}
+.rs-item:last-child{border-right:none}
+.rs-num{font-family:'Cormorant Garamond',serif;font-size:3rem;font-weight:300;color:var(--oro);line-height:1}
+.rs-stars{color:var(--oro);font-size:.75rem;display:block;margin:.15rem 0}
+.rs-plat{font-size:0.56rem;letter-spacing:.28em;text-transform:uppercase;color:var(--grigio)}
+.rec-grid{max-width:1060px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.rc{background:#fff;padding:1.8rem;border-bottom:3px solid transparent;transition:all .35s;position:relative}
+.rc:hover{border-bottom-color:var(--oro);box-shadow:0 12px 32px rgba(15,11,6,.08);transform:translateY(-4px)}
+.rc-placeholder-badge{position:absolute;top:1rem;right:1rem;background:rgba(200,168,75,.1);border:1px solid rgba(200,168,75,.3);font-size:0.45rem;letter-spacing:.15em;text-transform:uppercase;color:var(--oro);padding:.2rem .5rem}
+.rc-stars{color:var(--oro);font-size:.72rem;margin-bottom:.9rem}
+.rc-text{font-size:0.77rem;color:var(--nero);line-height:1.82;font-style:italic;margin-bottom:1.3rem}
+.rc-foot{display:flex;justify-content:space-between;align-items:flex-end;padding-top:.9rem;border-top:1px solid rgba(200,168,75,.12)}
+.rc-name{font-size:0.7rem;font-weight:600;color:var(--nero)}
+.rc-from{font-size:0.56rem;color:var(--grigio);margin-top:2px}
+.rc-apt{font-size:0.5rem;letter-spacing:.18em;text-transform:uppercase;color:var(--oro);background:rgba(200,168,75,.08);border:1px solid rgba(200,168,75,.25);padding:.22rem .55rem}
+.rec-disclaimer{text-align:center;margin-top:2rem;font-size:0.6rem;color:var(--grigio);font-style:italic}
+.rec-disclaimer a{color:var(--oro)}
+
+/* ═══════════════════════════
+   PACCHETTI
+═══════════════════════════ */
+.s-pkg{padding:5.5rem 2rem;background:var(--nero2)}
+.pkg-grid{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:2px}
+.pkg{position:relative;overflow:hidden;cursor:pointer;transition:transform .4s}
+.pkg:hover{transform:translateY(-6px);z-index:1}
+.pkg-img{width:100%;aspect-ratio:3/4;object-fit:cover;filter:brightness(.65);transition:all .7s var(--silk)}
+.pkg:hover .pkg-img{filter:brightness(.4);transform:scale(1.06)}
+.pkg-body{position:absolute;inset:0;background:linear-gradient(to top,rgba(15,11,6,.98) 0%,rgba(15,11,6,.1) 60%,transparent 100%);padding:1.7rem;display:flex;flex-direction:column;justify-content:flex-end}
+.pkg-ico{font-size:1.6rem;margin-bottom:.5rem}
+.pkg-eye{font-size:0.48rem;letter-spacing:.32em;text-transform:uppercase;color:var(--oro);margin-bottom:.25rem}
+.pkg-name{font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-weight:300;color:#fff;line-height:1.1;margin-bottom:.5rem}
+.pkg-desc{font-size:0.65rem;color:rgba(255,255,255,.48);line-height:1.65;max-height:0;overflow:hidden;transition:max-height .5s}
+.pkg:hover .pkg-desc{max-height:110px;margin-bottom:.9rem}
+.pkg-cta{display:inline-block;font-size:0.54rem;letter-spacing:.22em;text-transform:uppercase;color:var(--oro);border:1px solid rgba(200,168,75,.4);padding:.38rem .85rem;opacity:0;transform:translateY(5px);transition:all .4s .1s}
+.pkg:hover .pkg-cta{opacity:1;transform:translateY(0)}
+.pkg-hot{position:absolute;top:.9rem;right:.9rem;background:var(--terra);color:#fff;font-size:0.5rem;letter-spacing:.15em;text-transform:uppercase;padding:.28rem .65rem;font-weight:700}
+
+/* ═══════════════════════════
+   SERVIZI
+═══════════════════════════ */
+.s-srv{padding:5.5rem 2rem;background:var(--bianco)}
+.srv-grid{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
+.srv-card{background:#fff;border:1px solid rgba(200,168,75,.12);padding:2.5rem 2rem;text-align:center;transition:all .35s}
+.srv-card:hover{border-color:var(--oro);transform:translateY(-4px);box-shadow:0 12px 30px rgba(15,11,6,.07)}
+.srv-ico{font-size:2.2rem;margin-bottom:1rem}
+.srv-name{font-family:'Cormorant Garamond',serif;font-size:1.25rem;color:var(--nero);margin-bottom:.5rem}
+.srv-desc{font-size:0.7rem;color:var(--grigio);line-height:1.75;margin-bottom:1.1rem}
+.srv-prices{list-style:none}
+.srv-prices li{font-size:0.65rem;color:var(--nero);padding:.22rem 0;border-bottom:1px solid rgba(200,168,75,.1)}
+.srv-prices li:last-child{border-bottom:none}
+.srv-prices strong{color:var(--oro)}
+
+/* ═══════════════════════════
+   OFFERTE STAGIONALI
+═══════════════════════════ */
+.s-off{padding:5.5rem 2rem;background:var(--bianco)}
+.off-grid{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:3px}
+.off{position:relative;overflow:hidden;cursor:pointer}
+.off-img{width:100%;aspect-ratio:4/3;object-fit:cover;filter:brightness(.6);transition:all .6s var(--silk)}
+.off.big .off-img{aspect-ratio:3/4}
+.off:hover .off-img{filter:brightness(.35);transform:scale(1.05)}
+.off-body{position:absolute;inset:0;background:linear-gradient(to top,rgba(15,11,6,.97) 0%,rgba(15,11,6,.1) 68%,transparent 100%);padding:1.8rem;display:flex;flex-direction:column;justify-content:flex-end}
+.off-per{font-size:0.5rem;letter-spacing:.35em;text-transform:uppercase;color:var(--oro);margin-bottom:.35rem}
+.off-name{font-family:'Cormorant Garamond',serif;font-size:1.65rem;font-weight:300;color:#fff;line-height:1.05;margin-bottom:.4rem}
+.off.big .off-name{font-size:2rem}
+.off-desc{font-size:0.66rem;color:rgba(255,255,255,.5);line-height:1.65;max-height:0;overflow:hidden;transition:max-height .5s}
+.off:hover .off-desc{max-height:90px;margin-bottom:.9rem}
+.off-pill{position:absolute;top:1rem;right:1rem;background:var(--terra);color:#fff;font-size:0.62rem;font-weight:700;width:48px;height:48px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.1}
+.off-pill small{font-size:0.4rem;font-weight:400}
+.off-link{display:inline-block;font-size:0.54rem;letter-spacing:.2em;text-transform:uppercase;color:var(--oro);border:1px solid rgba(200,168,75,.4);padding:.38rem .85rem;opacity:0;transform:translateY(5px);transition:all .4s}
+.off:hover .off-link{opacity:1;transform:translateY(0)}
+
+/* ═══════════════════════════
+   STORIA
+═══════════════════════════ */
+.s-sto{padding:5.5rem 2rem;background:var(--nero2)}
+.sto-inner{max-width:1060px;margin:0 auto;display:grid;grid-template-columns:280px 1fr;gap:5rem;align-items:center}
+.sto-photo-wrap{position:relative;flex-shrink:0}
+.sto-photo{width:100%;aspect-ratio:3/4;object-fit:cover;border:2px solid var(--oro);filter:sepia(15%) brightness(.85)}
+.sto-frame{position:absolute;top:14px;left:14px;right:-14px;bottom:-14px;border:1px solid rgba(200,168,75,.2);pointer-events:none}
+.sto-mono{position:absolute;bottom:-1.2rem;right:-1.2rem;width:72px;height:72px;background:var(--oro);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:1.9rem;color:var(--nero);font-weight:700}
+.sto-h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3vw,2.7rem);font-weight:300;color:var(--crema);line-height:1.15;margin-bottom:1.4rem}
+.sto-h2 em{font-style:italic;color:var(--oro-lt)}
+.sto-p{font-size:0.77rem;color:rgba(246,238,216,.52);line-height:1.95;margin-bottom:.9rem}
+.sto-quote{border-left:2px solid var(--oro);padding:.9rem 1.4rem;margin:1.4rem 0;background:rgba(200,168,75,.05);font-family:'Cormorant Garamond',serif;font-style:italic;font-size:1.02rem;color:rgba(246,238,216,.6);line-height:1.65}
+.sto-tags{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:1.4rem}
+.sto-tag{font-size:0.56rem;font-style:italic;color:rgba(246,238,216,.3);border:1px solid rgba(200,168,75,.15);padding:.28rem .75rem;font-family:'Cormorant Garamond',serif}
+
+/* ═══════════════════════════
+   CONTATTI
+═══════════════════════════ */
+.s-cnt{display:grid;grid-template-columns:1fr 1fr;min-height:580px}
+.cnt-map iframe{width:100%;height:100%;min-height:400px;display:block;border:none;filter:grayscale(15%)}
+.cnt-side{background:var(--nero2);padding:4.5rem 3rem;display:flex;flex-direction:column;justify-content:center}
+.cnt-h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3vw,2.6rem);font-weight:300;color:var(--crema);line-height:1.15;margin-bottom:.6rem}
+.cnt-h2 em{font-style:italic;color:var(--oro-lt)}
+.cnt-sub{font-size:0.68rem;color:rgba(246,238,216,.4);margin-bottom:2rem;line-height:1.7}
+.ct-row{display:flex;gap:.9rem;align-items:center;margin-bottom:1rem}
+.ct-ic{width:40px;height:40px;background:var(--oro);display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0}
+.ct-lbl{font-size:0.5rem;letter-spacing:.28em;text-transform:uppercase;color:var(--oro);display:block;margin-bottom:.15rem}
+.ct-val{font-size:0.85rem;color:var(--crema);font-weight:500}
+.ct-val a{color:var(--crema);transition:color .3s}
+.ct-val a:hover{color:var(--oro)}
+.sedi{margin:1.5rem 0}
+.sede{padding:.6rem 1rem;border-left:2px solid var(--oro);background:rgba(200,168,75,.05);margin-bottom:.4rem}
+.sede-n{font-size:0.54rem;letter-spacing:.2em;text-transform:uppercase;color:var(--oro);margin-bottom:.1rem}
+.sede-a{font-size:0.72rem;color:rgba(246,238,216,.55)}
+
+/* Form — collegato a Formspree (reale) */
+.cf{display:grid;grid-template-columns:1fr 1fr;gap:.7rem;margin-top:2rem;padding-top:2rem;border-top:1px solid rgba(200,168,75,.1)}
+.cf .full{grid-column:1/-1}
+.cfi{width:100%;padding:.8rem .9rem;background:rgba(246,238,216,.05);border:1px solid rgba(200,168,75,.2);color:var(--crema);font-family:'Montserrat',sans-serif;font-size:0.78rem;outline:none;transition:border-color .3s;appearance:none}
+.cfi:focus{border-color:var(--oro)}
+.cfi::placeholder{color:rgba(246,238,216,.28)}
+.cfi option{background:var(--nero2)}
+.cft{height:90px;resize:none}
+.cfs{grid-column:1/-1;background:var(--oro);color:var(--nero);border:none;padding:.95rem;font-family:'Montserrat',sans-serif;font-size:0.62rem;letter-spacing:.28em;text-transform:uppercase;font-weight:700;cursor:pointer;transition:background .3s}
+.cfs:hover{background:var(--oro-lt)}
+.form-success{display:none;grid-column:1/-1;text-align:center;padding:1.5rem;background:rgba(200,168,75,.1);border:1px solid rgba(200,168,75,.3);color:var(--oro);font-size:0.75rem;letter-spacing:.1em}
+
+/* ═══════════════════════════
+   FOOTER
+═══════════════════════════ */
+footer{background:var(--nero);border-top:2px solid var(--oro);padding:4rem 2rem 2rem}
+.ft-grid{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1.8fr 1fr 1fr 1fr;gap:3rem;padding-bottom:3rem;border-bottom:1px solid rgba(200,168,75,.1);margin-bottom:1.8rem}
+.ft-brand{font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:300;color:var(--crema)}
+.ft-sub{font-size:0.52rem;letter-spacing:.4em;text-transform:uppercase;color:var(--oro);display:block;margin-bottom:1rem}
+.ft-desc{font-size:0.68rem;color:rgba(246,238,216,.3);line-height:1.9;margin-bottom:1.4rem}
+.ft-soc{display:flex;gap:.5rem}
+.ftsc{width:32px;height:32px;border:1px solid rgba(200,168,75,.22);display:flex;align-items:center;justify-content:center;color:rgba(246,238,216,.35);font-size:0.65rem;font-weight:700;transition:all .3s}
+.ftsc:hover{border-color:var(--oro);color:var(--oro)}
+.ft-col h4{font-size:0.54rem;letter-spacing:.38em;text-transform:uppercase;color:var(--oro);margin-bottom:1.3rem}
+.ft-col ul{list-style:none}
+.ft-col li{margin-bottom:.65rem}
+.ft-col a{font-size:0.72rem;color:rgba(246,238,216,.38);transition:color .3s}
+.ft-col a:hover{color:var(--oro)}
+.ft-legal{font-size:0.58rem;color:rgba(246,238,216,.18);line-height:1.8;margin-bottom:1.5rem}
+.ft-bot{max-width:1180px;margin:0 auto;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem;font-size:0.58rem;color:rgba(246,238,216,.18)}
+.ft-bot a{color:var(--oro)}
+
+/* ═══════════════════════════
+   WHATSAPP FAB
+═══════════════════════════ */
+.wa-fab{
+  position:fixed;right:1.5rem;bottom:1.5rem;z-index:850;
+  width:52px;height:52px;border-radius:50%;
+  background:#25D366;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 4px 20px rgba(37,211,102,.4);transition:all .3s;
+  animation:wap 3s infinite;
+}
+.wa-fab:hover{transform:scale(1.1)}
+.wa-fab svg{width:26px;height:26px;fill:#fff}
+@keyframes wap{0%,100%{box-shadow:0 4px 20px rgba(37,211,102,.4)}50%{box-shadow:0 4px 28px rgba(37,211,102,.7),0 0 0 8px rgba(37,211,102,.1)}}
+
+/* ═══════════════════════════
+   RESPONSIVE
+═══════════════════════════ */
+@media(max-width:1024px){
+  .apt-grid{grid-template-columns:1fr 1fr}
+  .apt-card.big .apt-img{aspect-ratio:3/4}
+  .pkg-grid{grid-template-columns:1fr 1fr}
+  .srv-grid{grid-template-columns:1fr 1fr}
+  .off-grid{grid-template-columns:1fr 1fr}
+  .s-cnt{grid-template-columns:1fr}
+  .sto-inner{grid-template-columns:1fr;gap:3rem}
+  .sto-photo{max-width:320px;aspect-ratio:4/3}
+  .ft-grid{grid-template-columns:1fr 1fr}
+  .nav-links{display:none}
+  .nav-ham{display:flex}
+  .lang-toggle{display:none}
+  .tour-side{padding:3.5rem 2rem}
+}
+@media(max-width:768px){
+  .nav{padding:0 1.2rem;height:58px}
+  .nav-links{display:none}
+  .nav-ham{display:flex}
+  .hero-content{padding:70px 1.2rem 1.5rem}
+  .hero-title{font-size:clamp(2.4rem,11vw,3.5rem)}
+  .hero-sub{font-size:0.54rem;margin-bottom:1.5rem}
+  .hero-badge{font-size:0.46rem;padding:.3rem .8rem;margin-bottom:1rem}
+  .hero-book{grid-template-columns:1fr 1fr;gap:.7rem;padding:1rem}
+  .hbf{border-right:none;padding:0;padding-bottom:.5rem;border-bottom:1px solid rgba(200,168,75,.1)}
+  .hbb{grid-column:1/-1;margin-left:0;padding:.85rem;width:100%}
+  .trust{flex-wrap:wrap}
+  .ti{width:50%;border-right:none;border-bottom:1px solid rgba(200,168,75,.1);max-width:none}
+  .ti:nth-child(odd){border-right:1px solid rgba(200,168,75,.1)}
+  .s-apt,.s-srv,.s-rec,.s-sto,.cnt-side,.s-pkg,.s-off{padding:4rem 1.2rem}
+  .apt-grid,.pkg-grid,.srv-grid,.off-grid,.rec-grid{grid-template-columns:1fr}
+  .apt-feats,.apt-btns{opacity:1;transform:none}
+  .apt-img,.apt-card.big .apt-img{aspect-ratio:4/3}
+  .off.big .off-img,.off-img{aspect-ratio:16/9}
+  .rec-scores{flex-wrap:wrap}
+  .rs-item{min-width:33%}
+  .sto-inner{grid-template-columns:1fr;gap:2.5rem}
+  .sto-photo{max-width:100%;aspect-ratio:4/3}
+  .sto-mono{width:58px;height:58px;font-size:1.5rem}
+  .s-cnt{grid-template-columns:1fr}
+  .cf{grid-template-columns:1fr}
+  .ft-grid{grid-template-columns:1fr;gap:1.8rem}
+  .ft-bot{flex-direction:column;gap:.3rem}
+  .nav-overlay a{font-size:1.7rem;padding:.55rem 1.5rem}
+}
+
+/* ═══════════════════════════
+   MAPPA STATICA (no iframe)
+═══════════════════════════ */
+.map-static{
+  width:100%; height:100%; min-height:500px;
+  background:
+    linear-gradient(135deg,rgba(15,11,6,.85) 0%,rgba(15,11,6,.6) 100%),
+    url('https://lefuoriserieappartamenti.com/wp-content/uploads/2021/11/palermo-centro-storico-_9673_850x0.jpg')
+    center/cover no-repeat;
+  display:flex; align-items:center; justify-content:center;
+  position:relative;
+}
+.map-overlay{
+  display:flex; align-items:center; justify-content:center;
+  padding:2rem; width:100%;
+}
+.map-card{
+  background:rgba(15,11,6,.92); border:1px solid rgba(200,168,75,.3);
+  backdrop-filter:blur(12px); padding:2.5rem;
+  max-width:380px; width:100%;
+}
+.map-pin-ico{font-size:2.5rem;margin-bottom:.8rem;display:block;text-align:center}
+.map-title{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:300;color:var(--crema);text-align:center;margin-bottom:.2rem}
+.map-sub{font-size:0.52rem;letter-spacing:.35em;text-transform:uppercase;color:var(--oro);text-align:center;margin-bottom:1.8rem}
+.map-sedi-list{display:flex;flex-direction:column;gap:.9rem;margin-bottom:2rem}
+.map-sede-row{display:flex;align-items:flex-start;gap:.8rem}
+.map-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;margin-top:4px}
+.map-sede-row strong{font-size:0.78rem;color:var(--crema);display:block;margin-bottom:.1rem}
+.map-sede-row span{font-size:0.65rem;color:rgba(246,238,216,.4)}
+.map-btns{display:flex;flex-direction:column;gap:.6rem}
+.map-btn{
+  display:block;text-align:center;
+  background:var(--oro);color:var(--nero);
+  padding:.75rem 1.5rem;font-size:0.6rem;
+  letter-spacing:.2em;text-transform:uppercase;font-weight:700;
+  transition:background .3s;
+}
+.map-btn:hover{background:var(--oro-lt)}
+.map-btn-2{background:transparent;border:1px solid rgba(200,168,75,.35);color:var(--oro)}
+.map-btn-2:hover{background:rgba(200,168,75,.08)}
+
+/* ═══════════════════════════
+   SCHEDE APPARTAMENTO DETTAGLIO
+═══════════════════════════ */
+.s-apt-detail { padding:5rem 2rem; background:var(--crema2) }
+.apt-detail {
+  max-width:1100px; margin:0 auto 5rem;
+  display:grid; grid-template-columns:1fr 1fr; gap:4rem;
+  align-items:start;
+}
+.apt-detail:nth-child(even) { direction:rtl }
+.apt-detail:nth-child(even) > * { direction:ltr }
+.apt-detail:last-child { margin-bottom:0 }
+
+/* Galleria foto */
+.apt-gallery { position:relative }
+.apt-gallery-main {
+  width:100%; aspect-ratio:4/3; object-fit:cover;
+  border:2px solid rgba(200,168,75,.2);
+}
+.apt-gallery-thumbs {
+  display:grid; grid-template-columns:repeat(3,1fr); gap:3px; margin-top:3px;
+}
+.apt-gallery-thumb {
+  aspect-ratio:4/3; object-fit:cover;
+  filter:brightness(.75); cursor:pointer;
+  transition:filter .3s; border:1px solid rgba(200,168,75,.1);
+}
+.apt-gallery-thumb:hover { filter:brightness(1) }
+.apt-gallery-placeholder {
+  aspect-ratio:4/3; background:rgba(200,168,75,.08);
+  border:2px dashed rgba(200,168,75,.3);
+  display:flex; align-items:center; justify-content:center;
+  flex-direction:column; gap:.5rem;
+}
+.apt-gallery-placeholder span { font-size:2rem }
+.apt-gallery-placeholder p {
+  font-size:0.58rem; letter-spacing:.2em; text-transform:uppercase;
+  color:rgba(200,168,75,.5); text-align:center; padding:0 1rem;
+}
+.apt-thumb-placeholder {
+  aspect-ratio:4/3; background:rgba(200,168,75,.05);
+  border:1px dashed rgba(200,168,75,.2);
+  display:flex; align-items:center; justify-content:center;
+  font-size:0.5rem; color:rgba(200,168,75,.3); letter-spacing:.15em; text-transform:uppercase;
+}
+
+/* Info testo */
+.apt-detail-info {}
+.apt-detail-eye {
+  font-size:0.52rem; letter-spacing:.45em; text-transform:uppercase;
+  color:var(--oro); margin-bottom:.6rem; display:block;
+}
+.apt-detail-name {
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(2rem,4vw,3rem); font-weight:300;
+  color:var(--nero); line-height:1; margin-bottom:.3rem;
+}
+.apt-detail-name em { font-style:italic; color:var(--terra) }
+.apt-detail-etimologia {
+  font-family:'Cormorant Garamond',serif; font-style:italic;
+  font-size:0.88rem; color:var(--grigio); margin-bottom:1.4rem;
+  padding-bottom:1.4rem; border-bottom:1px solid rgba(200,168,75,.15);
+  line-height:1.7;
+}
+.apt-detail-desc {
+  font-size:0.77rem; color:var(--grigio); line-height:1.95; margin-bottom:1.6rem;
+}
+.apt-detail-desc.placeholder {
+  background:rgba(200,168,75,.06); border:1px dashed rgba(200,168,75,.25);
+  padding:1rem; color:rgba(200,168,75,.6); font-style:italic;
+}
+
+/* Caratteristiche */
+.apt-specs {
+  display:grid; grid-template-columns:1fr 1fr; gap:.5rem;
+  margin-bottom:1.8rem; padding:1.2rem;
+  background:#fff; border:1px solid rgba(200,168,75,.12);
+}
+.apt-spec { display:flex; align-items:center; gap:.6rem }
+.apt-spec-ico { font-size:1rem; flex-shrink:0 }
+.apt-spec-lbl { font-size:0.58rem; color:var(--grigio); display:block }
+.apt-spec-val { font-size:0.72rem; color:var(--nero); font-weight:600 }
+.apt-spec-val.placeholder { color:rgba(200,168,75,.5); font-style:italic; font-weight:400 }
+
+/* CTA */
+.apt-detail-btns { display:flex; gap:.7rem; flex-wrap:wrap }
+.adb-main {
+  background:var(--oro); color:var(--nero);
+  padding:.8rem 1.8rem; font-size:0.6rem; letter-spacing:.22em;
+  text-transform:uppercase; font-weight:700;
+  border:1.5px solid var(--oro); transition:all .3s; display:inline-block;
+}
+.adb-main:hover { background:transparent; color:var(--oro) }
+.adb-ext {
+  border:1.5px solid rgba(200,168,75,.35); color:var(--oro-dk);
+  padding:.8rem 1.3rem; font-size:0.6rem; letter-spacing:.2em;
+  text-transform:uppercase; transition:all .3s; display:inline-block;
+}
+.adb-ext:hover { border-color:var(--oro); color:var(--oro) }
+
+/* Divisore tra appartamenti */
+.apt-divider {
+  max-width:1100px; margin:0 auto 5rem;
+  height:1px; background:linear-gradient(to right,transparent,rgba(200,168,75,.3),transparent);
+}
+
+@media(max-width:900px){
+  .apt-detail { grid-template-columns:1fr; gap:2rem; direction:ltr !important }
+  .apt-detail:nth-child(even) > * { direction:ltr }
+}
+
+
+/* ═══════════════════════════
+   POSIZIONE & ATTRAZIONI
+═══════════════════════════ */
+.apt-location {
+  margin-top:1.6rem; padding-top:1.6rem;
+  border-top:1px solid rgba(200,168,75,.12);
+}
+.apt-loc-header {
+  display:flex; justify-content:space-between; align-items:center;
+  margin-bottom:1rem; flex-wrap:wrap; gap:.5rem;
+}
+.apt-loc-title {
+  font-size:0.54rem; letter-spacing:.35em; text-transform:uppercase;
+  color:var(--oro);
+}
+.apt-loc-maplink {
+  display:inline-flex; align-items:center; gap:.4rem;
+  background:var(--nero); color:var(--crema);
+  font-size:0.54rem; letter-spacing:.18em; text-transform:uppercase;
+  padding:.45rem .9rem; border:1px solid rgba(200,168,75,.25);
+  transition:all .3s; font-weight:500;
+}
+.apt-loc-maplink:hover { border-color:var(--oro); color:var(--oro) }
+.apt-loc-maplink span { font-size:.9rem }
+.apt-attractions {
+  display:grid; grid-template-columns:1fr 1fr; gap:.4rem;
+}
+.apt-attr {
+  display:flex; align-items:center; gap:.6rem;
+  padding:.55rem .7rem; background:#fff;
+  border:1px solid rgba(200,168,75,.1);
+  transition:border-color .3s;
+}
+.apt-attr:hover { border-color:rgba(200,168,75,.35) }
+.apt-attr-ico { font-size:1.1rem; flex-shrink:0 }
+.apt-attr-name { font-size:0.68rem; color:var(--nero); font-weight:500; display:block }
+.apt-attr-dist {
+  font-size:0.52rem; color:var(--oro); font-weight:600;
+  letter-spacing:.05em;
+}
+.apt-walkscore {
+  margin-top:.8rem; padding:.6rem .9rem;
+  background:rgba(200,168,75,.06); border:1px solid rgba(200,168,75,.15);
+  display:flex; align-items:center; gap:.6rem;
+  font-size:0.62rem; color:var(--grigio);
+}
+.apt-walkscore strong { color:var(--nero) }
+
+
+.apt-detail-link {
+  display:inline-block; margin-bottom:.7rem;
+  font-size:0.54rem; letter-spacing:.25em; text-transform:uppercase;
+  color:var(--oro-lt); border-bottom:1px solid rgba(200,168,75,.35);
+  padding-bottom:.15rem; transition:all .3s;
+}
+.apt-detail-link:hover { color:#fff; border-bottom-color:#fff }
+
+/* ═══════════════════════════════════
+   SEZIONE PRENOTAZIONE DIRETTA / SMOOBU
+═══════════════════════════════════ */
+.s-book {
+  padding:5rem 2rem;
+  background: var(--nero);
+  position:relative; overflow:hidden;
+}
+.s-book::before {
+  content:''; position:absolute; inset:0;
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(200,168,75,.06) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 50%, rgba(200,168,75,.04) 0%, transparent 60%);
+  pointer-events:none;
+}
+.book-inner {
+  max-width:1100px; margin:0 auto; position:relative; z-index:1;
+  display:grid; grid-template-columns:1fr 1.4fr; gap:5rem; align-items:start;
+}
+.book-lato {  }
+.book-eye {
+  font-size:0.54rem; letter-spacing:.45em; text-transform:uppercase;
+  color:var(--oro); display:block; margin-bottom:.8rem;
+}
+.book-h2 {
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(2rem,3.5vw,2.8rem); font-weight:300;
+  color:var(--crema); line-height:1.1; margin-bottom:1.2rem;
+}
+.book-h2 em { font-style:italic; color:var(--oro-lt) }
+.book-p {
+  font-size:0.78rem; color:rgba(246,238,216,.45);
+  line-height:2; margin-bottom:2rem;
+}
+.book-vantaggi { list-style:none; margin-bottom:2.5rem }
+.book-vantaggi li {
+  display:flex; align-items:center; gap:.8rem;
+  font-size:0.75rem; color:rgba(246,238,216,.55);
+  padding:.5rem 0; border-bottom:1px solid rgba(200,168,75,.08);
+}
+.book-vantaggi li:last-child { border-bottom:none }
+.book-vantaggi li::before {
+  content:'✦'; color:var(--oro); font-size:.6rem; flex-shrink:0;
+}
+.book-vantaggi strong { color:var(--crema); font-weight:600 }
+.book-powered {
+  display:flex; align-items:center; gap:.7rem;
+  font-size:0.56rem; color:rgba(246,238,216,.2);
+  letter-spacing:.1em; margin-top:1.5rem;
+  padding-top:1.5rem; border-top:1px solid rgba(200,168,75,.1);
+}
+.book-powered span { font-size:1rem }
+
+/* Widget Smoobu placeholder */
+.smoobu-wrap {
+  background:rgba(246,238,216,.03);
+  border:1px solid rgba(200,168,75,.2);
+  border-top:2px solid var(--oro);
+  overflow:hidden;
+}
+.smoobu-bar {
+  background:rgba(200,168,75,.08);
+  border-bottom:1px solid rgba(200,168,75,.15);
+  padding:.7rem 1.2rem;
+  display:flex; align-items:center; justify-content:space-between;
+  flex-wrap:wrap; gap:.5rem;
+}
+.smoobu-bar-title {
+  font-size:0.5rem; letter-spacing:.35em; text-transform:uppercase;
+  color:var(--oro); font-weight:600;
+}
+.smoobu-bar-live {
+  display:flex; align-items:center; gap:.4rem;
+  font-size:0.48rem; color:rgba(246,238,216,.4); letter-spacing:.1em;
+}
+.smoobu-dot {
+  width:6px; height:6px; border-radius:50%;
+  background:#4CAF50; animation:pulse-dot 2s infinite;
+}
+@keyframes pulse-dot {
+  0%,100%{opacity:1} 50%{opacity:.4}
+}
+
+/* Selettore appartamento */
+.smoobu-apt-tabs {
+  display:grid; grid-template-columns:repeat(3,1fr);
+  border-bottom:1px solid rgba(200,168,75,.12);
+}
+.sapt {
+  padding:.7rem .5rem; text-align:center;
+  font-size:0.5rem; letter-spacing:.18em; text-transform:uppercase;
+  color:rgba(246,238,216,.35); cursor:pointer;
+  border-right:1px solid rgba(200,168,75,.1);
+  transition:all .3s; background:transparent; border-top:none; border-left:none; border-bottom:none;
+  font-family:'Montserrat',sans-serif;
+}
+.sapt:last-child { border-right:none }
+.sapt.active {
+  color:var(--oro); background:rgba(200,168,75,.06);
+  border-bottom:2px solid var(--oro);
+}
+
+/* Calendario placeholder */
+.smoobu-cal {
+  padding:1.2rem;
+}
+.smoobu-cal-header {
+  display:flex; align-items:center; justify-content:space-between;
+  margin-bottom:1rem;
+}
+.smoobu-cal-nav {
+  background:transparent; border:1px solid rgba(200,168,75,.2);
+  color:var(--oro); width:28px; height:28px;
+  display:flex; align-items:center; justify-content:center;
+  cursor:pointer; font-size:.8rem; transition:all .3s;
+}
+.smoobu-cal-nav:hover { background:rgba(200,168,75,.1) }
+.smoobu-cal-month {
+  font-family:'Cormorant Garamond',serif;
+  font-size:1rem; color:var(--crema); font-weight:300; letter-spacing:.05em;
+}
+.smoobu-cal-grid { display:grid; grid-template-columns:repeat(7,1fr); gap:2px }
+.sgd-head {
+  text-align:center; font-size:0.46rem; letter-spacing:.15em;
+  text-transform:uppercase; color:rgba(246,238,216,.3);
+  padding:.3rem 0;
+}
+.sgd {
+  aspect-ratio:1; display:flex; align-items:center; justify-content:center;
+  font-size:0.65rem; color:rgba(246,238,216,.55); cursor:pointer;
+  position:relative; transition:all .2s;
+}
+.sgd:hover:not(.sgd-occ):not(.sgd-empty) {
+  background:rgba(200,168,75,.15); color:var(--oro);
+}
+.sgd.sgd-occ {
+  background:rgba(200,168,75,.05);
+  color:rgba(246,238,216,.2); cursor:not-allowed;
+  text-decoration:line-through;
+}
+.sgd.sgd-occ::after {
+  content:''; position:absolute; inset:2px;
+  background:repeating-linear-gradient(
+    45deg, transparent, transparent 3px,
+    rgba(200,168,75,.1) 3px, rgba(200,168,75,.1) 4px
+  );
+}
+.sgd.sgd-sel {
+  background:var(--oro); color:var(--nero); font-weight:700;
+}
+.sgd.sgd-range {
+  background:rgba(200,168,75,.18); color:var(--oro-lt);
+}
+.sgd.sgd-today {
+  border:1px solid rgba(200,168,75,.4); color:var(--oro);
+}
+.sgd.sgd-empty { cursor:default }
+.sgd.sgd-past { color:rgba(246,238,216,.15); cursor:not-allowed }
+
+/* Legenda */
+.smoobu-legend {
+  display:flex; gap:1.2rem; padding:.8rem 1.2rem;
+  border-top:1px solid rgba(200,168,75,.1);
+  flex-wrap:wrap;
+}
+.sleg {
+  display:flex; align-items:center; gap:.4rem;
+  font-size:0.48rem; color:rgba(246,238,216,.35); letter-spacing:.08em;
+}
+.sleg-dot {
+  width:10px; height:10px; border-radius:2px; flex-shrink:0;
+}
+
+/* Form prenotazione */
+.smoobu-form {
+  padding:1rem 1.2rem 1.2rem;
+  border-top:1px solid rgba(200,168,75,.1);
+  display:grid; grid-template-columns:1fr 1fr; gap:.6rem;
+}
+.sfrow { display:flex; flex-direction:column; gap:.3rem }
+.sfrow.full { grid-column:1/-1 }
+.sflbl {
+  font-size:0.46rem; letter-spacing:.28em; text-transform:uppercase;
+  color:var(--oro); font-family:'Montserrat',sans-serif;
+}
+.sfinput {
+  background:rgba(246,238,216,.04); border:none;
+  border-bottom:1px solid rgba(200,168,75,.25);
+  color:var(--crema); font-family:'Montserrat',sans-serif;
+  font-size:0.72rem; padding:.4rem 0; outline:none;
+  transition:border-color .3s; width:100%;
+}
+.sfinput:focus { border-bottom-color:var(--oro) }
+.sfinput::placeholder { color:rgba(246,238,216,.2) }
+.sfinput option { background:var(--nero) }
+.smoobu-cta {
+  grid-column:1/-1; margin-top:.4rem;
+  background:var(--oro); color:var(--nero); border:none;
+  padding:.9rem; font-family:'Montserrat',sans-serif;
+  font-size:0.6rem; letter-spacing:.3em; text-transform:uppercase;
+  font-weight:700; cursor:pointer; transition:all .3s;
+  border:1.5px solid var(--oro);
+}
+.smoobu-cta:hover { background:transparent; color:var(--oro) }
+.smoobu-note {
+  grid-column:1/-1; text-align:center;
+  font-size:0.52rem; color:rgba(246,238,216,.2);
+  font-style:italic; margin-top:.2rem;
+}
+
+/* Badge placeholder Smoobu */
+.smoobu-placeholder-notice {
+  grid-column:1/-1;
+  background:rgba(200,168,75,.08); border:1px dashed rgba(200,168,75,.3);
+  padding:.8rem 1rem; text-align:center;
+  font-size:0.58rem; color:rgba(200,168,75,.6); line-height:1.7;
+}
+
+@media(max-width:900px){
+  .book-inner { grid-template-columns:1fr; gap:3rem }
+  .smoobu-apt-tabs { grid-template-columns:1fr }
+  .sapt { border-right:none; border-bottom:1px solid rgba(200,168,75,.1) }
+}
+@media(max-width:600px){
+  .smoobu-form { grid-template-columns:1fr }
+  .sfrow.full { grid-column:1 }
+  .smoobu-cta { grid-column:1 }
+  .smoobu-placeholder-notice { grid-column:1 }
+}
+
+</style>
+</head>
+<body>
+
+<!-- CHECKBOX MENU — deve stare FUORI da site-wrap -->
+<input type="checkbox" id="nav-cb">
+
+<div class="site-wrap">
+
+<!-- ═══════ OVERLAY MENU ═══════ -->
+<div class="nav-overlay">
+  <label for="nav-cb" class="nav-close-lbl">✕</label>
+  <div class="nav-ov-inner">
+    <a href="#appartamenti">Appartamenti</a>
+    <a href="#tour">Esperienze</a>
+    <a href="#servizi">Servizi</a>
+    <a href="#offerte">Offerte</a>
+    <a href="#storia">La Storia</a>
+    <a href="#contatti">Contatti</a>
+    <a href="#contatti" class="ov-cta">Prenota Ora</a>
+  </div>
+</div>
+
+<!-- ═══════ NAV ═══════ -->
+<nav class="nav" id="mainNav">
+  <a href="#top" class="nav-logo">
+    <div class="nav-diamond"><span>⚜</span></div>
+    <div>
+      <div class="nav-logo-name">Le Fuoriserie</div>
+      <span class="nav-logo-sub">Appartamenti · Palermo</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#appartamenti">Appartamenti</a></li>
+    <li><a href="#detail-monviso">Monviso</a></li>
+    <li><a href="#tour">Esperienze</a></li>
+    <li><a href="#servizi">Servizi</a></li>
+    <li><a href="#offerte">Offerte</a></li>
+    <li><a href="#storia">La Storia</a></li>
+    <li>
+      <div class="lang-toggle">
+        <button class="lang-btn active" onclick="setLang('it')">IT</button>
+        <button class="lang-btn" onclick="setLang('en')">EN</button>
+      </div>
+    </li>
+    <li><a href="#contatti" class="ncta">Prenota Ora</a></li>
+  </ul>
+  <label for="nav-cb" class="nav-ham">
+    <span></span><span></span><span></span>
+  </label>
+</nav>
+
+<!-- ═══════ HERO ═══════ -->
+<section class="hero" id="top">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <div class="hero-badge">✦ Palermo · Centro Storico · UNESCO ✦</div>
+    <h1 class="hero-title" data-it="Dimora nel" data-en="Stay in the">
+      <span class="txt-it">Dimora nel</span>
+      <span class="txt-en" style="display:none">Stay in the</span>
+      <em><span class="txt-it">Cuore Antico</span><span class="txt-en" style="display:none">Ancient Heart</span></em>
+    </h1>
+    <p class="hero-sub">
+      <span class="txt-it">3 Appartamenti di Charme · Prenotazione Diretta Senza Commissioni</span>
+      <span class="txt-en" style="display:none">3 Charming Apartments · Direct Booking · No Commission</span>
+    </p>
+    <div class="hero-book">
+      <div class="hbf">
+        <span class="hbl"><span class="txt-it">Appartamento</span><span class="txt-en" style="display:none">Apartment</span></span>
+        <select class="hbi">
+          <option value=""><span class="txt-it">Scegli…</span></option>
+          <option>Casa Monviso</option>
+          <option>Casa Viotti</option>
+          <option>Casa Zagato</option>
+        </select>
+      </div>
+      <div class="hbf">
+        <span class="hbl">Check-in</span>
+        <input type="date" class="hbi" id="hbi">
+      </div>
+      <div class="hbf">
+        <span class="hbl">Check-out</span>
+        <input type="date" class="hbi" id="hbo">
+      </div>
+      <div class="hbf">
+        <span class="hbl"><span class="txt-it">Ospiti</span><span class="txt-en" style="display:none">Guests</span></span>
+        <select class="hbi">
+          <option>1</option><option>2</option><option>3</option><option>4</option><option>5+</option>
+        </select>
+      </div>
+      <button class="hbb" onclick="scrollTo('contatti')">
+        <span class="txt-it">Verifica →</span>
+        <span class="txt-en" style="display:none">Check →</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust">
+  <div class="ti"><span class="ti-ico">⭐</span><div><span class="ti-t">5.0 / 9.8</span><span class="ti-s">Airbnb · Booking.com</span></div></div>
+  <div class="ti"><span class="ti-ico">🏛️</span><div><span class="ti-t">Centro Storico UNESCO</span><span class="ti-s">100 mt dai Quattro Canti</span></div></div>
+  <div class="ti"><span class="ti-ico">💳</span><div><span class="ti-t">Prenotazione Diretta</span><span class="ti-s">Nessuna commissione</span></div></div>
+  <div class="ti"><span class="ti-ico">🔑</span><div><span class="ti-t">Assistenza 24/7</span><span class="ti-s">+39 350 510 8301</span></div></div>
+</div>
+<div class="rule"></div>
+
+<!-- ═══════ APPARTAMENTI ═══════ -->
+<section class="s-apt" id="appartamenti">
+  <div class="sh">
+    <span class="sh-eye">✦ Scegli la tua dimora ✦</span>
+    <h2 class="sh-h2">Tre Appartamenti,<br>un'<em>Anima Unica</em></h2>
+    <div class="sh-line"></div>
+  </div>
+  <div class="apt-grid">
+
+    <div class="apt-card big" id="monviso">
+      <img class="apt-img" src="https://lefuoriserieappartamenti.com/wp-content/uploads/2021/11/whatsapp-image-2021-11-23-at-14.01.27-7.jpeg" alt="Casa Monviso — Palazzo Procida, Palermo">
+      <div class="apt-grad"></div>
+      <div class="apt-info">
+        <span class="apt-eye">✦ Palazzo Procida · Dimora Nobiliare</span>
+        <h3 class="apt-name">Casa <em>Monviso</em></h3>
+        <div class="apt-loc">📍 Via del Ponticello, 5 — Palermo 90100</div>
+        <div class="apt-feats">
+          <span class="apt-feat">Fino a 4 ospiti</span>
+          <span class="apt-feat">2 camere</span>
+          <span class="apt-feat">WiFi · AC</span>
+        </div>
+        <p class="apt-desc">Palazzo Procida, antica dimora nobiliare. A 100 mt dai Quattro Canti UNESCO, 600 mt dalla stazione centrale.</p>
+        <a href="#detail-monviso" class="apt-detail-link">↓ Scopri nel dettaglio</a>
+        <div class="apt-btns">
+          <a href="https://www.airbnb.it/rooms/53511352" target="_blank" rel="noopener" class="ab-main">Prenota Airbnb →</a>
+          <a href="https://www.booking.com/hotel/it/casa-monviso-le-fuoriserie.it.html" target="_blank" rel="noopener" class="ab-ext">Booking</a>
+          <a href="#contatti" class="ab-ext">Contatto diretto</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="apt-card" id="viotti">
+      <img class="apt-img" src="https://lefuoriserieappartamenti.com/wp-content/uploads/2022/09/img-20220709-wa0031.jpg" alt="Casa Viotti — Via Sedie Volanti, Palermo">
+      <div class="apt-grad"></div>
+      <div class="apt-info">
+        <span class="apt-eye">✦ Mercato del Capo · Fino a 8 ospiti</span>
+        <h3 class="apt-name">Casa <em>Viotti</em></h3>
+        <div class="apt-loc">📍 Via Sedie Volanti, 14 — Palermo 90100</div>
+        <div class="apt-feats">
+          <span class="apt-feat">Fino a 8 ospiti</span>
+          <span class="apt-feat">4 camere</span>
+          <span class="apt-feat">WiFi · AC</span>
+        </div>
+        <p class="apt-desc">Il più spazioso. Perfetto per famiglie o gruppi. Nel cuore del quartiere Capo, locali e movida a portata di mano.</p>
+        <a href="#detail-viotti" class="apt-detail-link">↓ Scopri nel dettaglio</a>
+        <div class="apt-btns">
+          <a href="https://www.airbnb.it/rooms/665623237269809912" target="_blank" rel="noopener" class="ab-main">Prenota Airbnb →</a>
+          <a href="https://www.booking.com/hotel/it/casa-viotti-le-fuoriserie-palermo.it.html" target="_blank" rel="noopener" class="ab-ext">Booking</a>
+          <a href="#contatti" class="ab-ext">Contatto diretto</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="apt-card" id="zagato">
+      <img class="apt-img" src="https://lefuoriserieappartamenti.com/wp-content/uploads/2021/12/whatsapp-image-2021-11-24-at-13.33.25.jpeg" alt="Casa Zagato — Il Catoio, Palermo">
+      <div class="apt-grad"></div>
+      <div class="apt-info">
+        <span class="apt-eye">✦ Il Catoio · Tradizione Autentica</span>
+        <h3 class="apt-name">Casa <em>Zagato</em></h3>
+        <div class="apt-loc">📍 Via Ciullo D'Alcamo, 6 — Palermo 90100</div>
+        <div class="apt-feats">
+          <span class="apt-feat">Fino a 3 ospiti</span>
+          <span class="apt-feat">1 camera</span>
+          <span class="apt-feat">WiFi · AC</span>
+        </div>
+        <p class="apt-desc">Il catoio — tipica struttura urbana siciliana, bottega e abitazione. L'esperienza più autentica del quartiere Capo.</p>
+        <a href="#detail-zagato" class="apt-detail-link">↓ Scopri nel dettaglio</a>
+        <div class="apt-btns">
+          <a href="mailto:lefuoriserieappartamenti@gmail.com?subject=Richiesta Casa Zagato" class="ab-main">Richiedi info →</a>
+          <a href="https://wa.me/393505108301?text=Ciao! Vorrei informazioni su Casa Zagato" target="_blank" rel="noopener" class="ab-ext">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <p class="apt-price-note">
+    Per prezzi aggiornati e disponibilità in tempo reale consulta
+    <a href="https://www.airbnb.it/rooms/53511352" target="_blank">Airbnb</a> o
+    <a href="https://www.booking.com/hotel/it/casa-monviso-le-fuoriserie.it.html" target="_blank">Booking.com</a>,
+    oppure <a href="#contatti">contattaci direttamente</a> per tariffe riservate senza commissioni.
+  </p>
+
+<!-- ═══════ SCHEDE APPARTAMENTO DETTAGLIO ═══════ -->
+<section class="s-apt-detail">
+  <div class="sh">
+    <span class="sh-eye">✦ Scopri ogni dimora ✦</span>
+    <h2 class="sh-h2">Gli Appartamenti <em>nel Dettaglio</em></h2>
+    <div class="sh-line"></div>
+  </div>
+
+  <!-- CASA MONVISO -->
+  <div class="apt-detail" id="detail-monviso">
+    <div class="apt-gallery">
+      <!-- Foto principale: sostituire src con foto reale -->
+      <img class="apt-gallery-main"
+        src="https://lefuoriserieappartamenti.com/wp-content/uploads/2021/11/whatsapp-image-2021-11-23-at-14.01.27-7.jpeg"
+        alt="Casa Monviso — sala principale">
+      <div class="apt-gallery-thumbs">
+        <!-- Aggiungere 3 foto reali: camera, bagno, cucina -->
+        <div class="apt-thumb-placeholder">Foto 2</div>
+        <div class="apt-thumb-placeholder">Foto 3</div>
+        <div class="apt-thumb-placeholder">Foto 4</div>
+      </div>
+    </div>
+    <div class="apt-detail-info">
+      <span class="apt-detail-eye">✦ Palazzo Procida · Dimora Nobiliare</span>
+      <h3 class="apt-detail-name">Casa <em>Monviso</em></h3>
+      <p class="apt-detail-etimologia">
+        La Carrozzeria Monviso era una carrozzeria torinese attiva negli anni '50,
+        nota per le sue linee eleganti e raffinate su telai Fiat e Lancia.
+        Come quella tradizione artigianale, Casa Monviso è un pezzo unico.
+      </p>
+      <!-- PLACEHOLDER: sostituire con descrizione reale dell'appartamento -->
+      <p class="apt-detail-desc placeholder">
+        📝 Inserire qui la descrizione completa di Casa Monviso:
+        storia del palazzo, caratteristiche degli spazi, atmosfera,
+        particolari dell'arredo, cosa si vede dalle finestre, ecc.
+      </p>
+      <div class="apt-specs">
+        <div class="apt-spec">
+          <span class="apt-spec-ico">👥</span>
+          <div><span class="apt-spec-lbl">Ospiti</span><span class="apt-spec-val">Fino a 4</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">🛏️</span>
+          <div><span class="apt-spec-lbl">Camere</span><span class="apt-spec-val placeholder">da inserire</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">📐</span>
+          <div><span class="apt-spec-lbl">Metratura</span><span class="apt-spec-val placeholder">da inserire</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">🏛️</span>
+          <div><span class="apt-spec-lbl">Piano</span><span class="apt-spec-val placeholder">da inserire</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">📍</span>
+          <div><span class="apt-spec-lbl">Indirizzo</span><span class="apt-spec-val">Via del Ponticello, 5</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">🌐</span>
+          <div><span class="apt-spec-lbl">WiFi</span><span class="apt-spec-val">Incluso</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">❄️</span>
+          <div><span class="apt-spec-lbl">Aria condizionata</span><span class="apt-spec-val">Inclusa</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">🍳</span>
+          <div><span class="apt-spec-lbl">Cucina</span><span class="apt-spec-val placeholder">da inserire</span></div>
+        </div>
+      </div>
+
+      <div class="apt-location">
+        <div class="apt-loc-header">
+          <span class="apt-loc-title">📍 Posizione &amp; Attrazioni</span>
+          <a href="https://maps.google.com/?q=Via+del+Ponticello+5+Palermo" target="_blank" rel="noopener" class="apt-loc-maplink">
+            <span>🗺️</span> Vedi su Google Maps
+          </a>
+        </div>
+        <div class="apt-attractions">
+          <div class="apt-attr"><span class="apt-attr-ico">🏛️</span><div><span class="apt-attr-name">Quattro Canti UNESCO</span><span class="apt-attr-dist">100 mt · 2 min a piedi</span></div></div>
+          <div class="apt-attr"><span class="apt-attr-ico">⛪</span><div><span class="apt-attr-name">Cattedrale di Palermo</span><span class="apt-attr-dist">400 mt · 5 min</span></div></div>
+          <div class="apt-attr"><span class="apt-attr-ico">🛒</span><div><span class="apt-attr-name">Mercato Ballarò</span><span class="apt-attr-dist">500 mt · 6 min</span></div></div>
+          <div class="apt-attr"><span class="apt-attr-ico">🎭</span><div><span class="apt-attr-name">Teatro Massimo</span><span class="apt-attr-dist">700 mt · 9 min</span></div></div>
+          <div class="apt-attr"><span class="apt-attr-ico">🚉</span><div><span class="apt-attr-name">Stazione Centrale</span><span class="apt-attr-dist">600 mt · 8 min</span></div></div>
+          <div class="apt-attr"><span class="apt-attr-ico">✈️</span><div><span class="apt-attr-name">Aeroporto Falcone</span><span class="apt-attr-dist">35 km · transfer €35</span></div></div>
+        </div>
+        <div class="apt-walkscore">🚶 <strong>Posizione eccellente</strong> — tutto il centro storico raggiungibile a piedi</div>
+      </div>
+      <div class="apt-detail-btns">
+        <a href="https://www.airbnb.it/rooms/53511352" target="_blank" rel="noopener" class="adb-main">Prenota su Airbnb →</a>
+        <a href="https://www.booking.com/hotel/it/casa-monviso-le-fuoriserie.it.html" target="_blank" rel="noopener" class="adb-ext">Booking.com</a>
+        <a href="#contatti" class="adb-ext">Contatto diretto</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="apt-divider"></div>
+
+  <!-- CASA VIOTTI -->
+  <div class="apt-detail" id="detail-viotti">
+    <div class="apt-gallery">
+      <img class="apt-gallery-main"
+        src="https://lefuoriserieappartamenti.com/wp-content/uploads/2022/09/img-20220709-wa0031.jpg"
+        alt="Casa Viotti — sala principale">
+      <div class="apt-gallery-thumbs">
+        <div class="apt-thumb-placeholder">Foto 2</div>
+        <div class="apt-thumb-placeholder">Foto 3</div>
+        <div class="apt-thumb-placeholder">Foto 4</div>
+      </div>
+    </div>
+    <div class="apt-detail-info">
+      <span class="apt-detail-eye">✦ Mercato del Capo · Fino a 8 Ospiti</span>
+      <h3 class="apt-detail-name">Casa <em>Viotti</em></h3>
+      <p class="apt-detail-etimologia">
+        La Carrozzeria Viotti era una storica carrozzeria torinese fondata nel 1880,
+        celebre per le sue realizzazioni su misura di grande eleganza.
+        Come quella tradizione, Casa Viotti è pensata per chi non vuole compromessi sullo spazio.
+      </p>
+      <p class="apt-detail-desc placeholder">
+        📝 Inserire qui la descrizione completa di Casa Viotti:
+        spazi, numero stanze, atmosfera, zona mercato del Capo,
+        particolari dell'arredo vintage, ecc.
+      </p>
+      <div class="apt-specs">
+        <div class="apt-spec">
+          <span class="apt-spec-ico">👥</span>
+          <div><span class="apt-spec-lbl">Ospiti</span><span class="apt-spec-val">Fino a 8</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">🛏️</span>
+          <div><span class="apt-spec-lbl">Camere</span><span class="apt-spec-val placeholder">da inserire</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">📐</span>
+          <div><span class="apt-spec-lbl">Metratura</span><span class="apt-spec-val placeholder">da inserire</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">🏛️</span>
+          <div><span class="apt-spec-lbl">Piano</span><span class="apt-spec-val placeholder">da inserire</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">📍</span>
+          <div><span class="apt-spec-lbl">Indirizzo</span><span class="apt-spec-val">Via Sedie Volanti, 14</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">🌐</span>
+          <div><span class="apt-spec-lbl">WiFi</span><span class="apt-spec-val">Incluso</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">❄️</span>
+          <div><span class="apt-spec-lbl">Aria condizionata</span><span class="apt-spec-val">Inclusa</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">🍳</span>
+          <div><span class="apt-spec-lbl">Cucina</span><span class="apt-spec-val placeholder">da inserire</span></div>
+        </div>
+      </div>
+
+      <div class="apt-location">
+        <div class="apt-loc-header">
+          <span class="apt-loc-title">📍 Posizione &amp; Attrazioni</span>
+          <a href="https://maps.google.com/?q=Via+Sedie+Volanti+14+Palermo" target="_blank" rel="noopener" class="apt-loc-maplink">
+            <span>🗺️</span> Vedi su Google Maps
+          </a>
+        </div>
+        <div class="apt-attractions">
+          <div class="apt-attr"><span class="apt-attr-ico">🛒</span><div><span class="apt-attr-name">Mercato del Capo</span><span class="apt-attr-dist">50 mt · 1 min a piedi</span></div></div>
+          <div class="apt-attr"><span class="apt-attr-ico">🏛️</span><div><span class="apt-attr-name">Quattro Canti UNESCO</span><span class="apt-attr-dist">600 mt · 8 min</span></div></div>
+          <div class="apt-attr"><span class="apt-attr-ico">⛪</span><div><span class="apt-attr-name">Chiesa del Gesù</span><span class="apt-attr-dist">300 mt · 4 min</span></div></div>
+          <div class="apt-attr"><span class="apt-attr-ico">🌳</span><div><span class="apt-attr-name">Giardino Garibaldi</span><span class="apt-attr-dist">400 mt · 5 min</span></div></div>
+          <div class="apt-attr"><span class="apt-attr-ico">🍕</span><div><span class="apt-attr-name">Via Maqueda</span><span class="apt-attr-dist">200 mt · 3 min</span></div></div>
+          <div class="apt-attr"><span class="apt-attr-ico">✈️</span><div><span class="apt-attr-name">Aeroporto Falcone</span><span class="apt-attr-dist">35 km · transfer €35</span></div></div>
+        </div>
+        <div class="apt-walkscore">🛒 <strong>Nel cuore del Mercato del Capo</strong> — l'esperienza più autentica di Palermo</div>
+      </div>
+      <div class="apt-detail-btns">
+        <a href="https://www.airbnb.it/rooms/665623237269809912" target="_blank" rel="noopener" class="adb-main">Prenota su Airbnb →</a>
+        <a href="https://www.booking.com/hotel/it/casa-viotti-le-fuoriserie-palermo.it.html" target="_blank" rel="noopener" class="adb-ext">Booking.com</a>
+        <a href="#contatti" class="adb-ext">Contatto diretto</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="apt-divider"></div>
+
+  <!-- CASA ZAGATO -->
+  <div class="apt-detail" id="detail-zagato">
+    <div class="apt-gallery">
+      <img class="apt-gallery-main"
+        src="https://lefuoriserieappartamenti.com/wp-content/uploads/2021/12/whatsapp-image-2021-11-24-at-13.33.25.jpeg"
+        alt="Casa Zagato — il catoio">
+      <div class="apt-gallery-thumbs">
+        <div class="apt-thumb-placeholder">Foto 2</div>
+        <div class="apt-thumb-placeholder">Foto 3</div>
+        <div class="apt-thumb-placeholder">Foto 4</div>
+      </div>
+    </div>
+    <div class="apt-detail-info">
+      <span class="apt-detail-eye">✦ Il Catoio · Quartiere Capo</span>
+      <h3 class="apt-detail-name">Casa <em>Zagato</em></h3>
+      <p class="apt-detail-etimologia">
+        La Carrozzeria Zagato, fondata a Milano nel 1919, è leggendaria per le sue
+        creazioni aerodinamiche e sportive su Alfa Romeo e Lancia.
+        Casa Zagato rispecchia quella filosofia: compatta, essenziale, unica.
+      </p>
+      <p class="apt-detail-desc placeholder">
+        📝 Inserire qui la descrizione del catoio: cos'è storicamente un catoio siciliano,
+        come è stato recuperato, l'atmosfera, i materiali, la luce, ecc.
+      </p>
+      <div class="apt-specs">
+        <div class="apt-spec">
+          <span class="apt-spec-ico">👥</span>
+          <div><span class="apt-spec-lbl">Ospiti</span><span class="apt-spec-val">Fino a 3</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">🛏️</span>
+          <div><span class="apt-spec-lbl">Camere</span><span class="apt-spec-val placeholder">da inserire</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">📐</span>
+          <div><span class="apt-spec-lbl">Metratura</span><span class="apt-spec-val placeholder">da inserire</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">🏛️</span>
+          <div><span class="apt-spec-lbl">Tipologia</span><span class="apt-spec-val">Catoio siciliano</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">📍</span>
+          <div><span class="apt-spec-lbl">Indirizzo</span><span class="apt-spec-val">Via Ciullo D'Alcamo, 6</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">🌐</span>
+          <div><span class="apt-spec-lbl">WiFi</span><span class="apt-spec-val">Incluso</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">❄️</span>
+          <div><span class="apt-spec-lbl">Aria condizionata</span><span class="apt-spec-val">Inclusa</span></div>
+        </div>
+        <div class="apt-spec">
+          <span class="apt-spec-ico">✨</span>
+          <div><span class="apt-spec-lbl">Unicità</span><span class="apt-spec-val">Catoio autentico</span></div>
+        </div>
+      </div>
+
+      <div class="apt-location">
+        <div class="apt-loc-header">
+          <span class="apt-loc-title">📍 Posizione &amp; Attrazioni</span>
+          <a href="https://maps.google.com/?q=Via+Ciullo+D'Alcamo+6+Palermo" target="_blank" rel="noopener" class="apt-loc-maplink">
+            <span>🗺️</span> Vedi su Google Maps
+          </a>
+        </div>
+        <div class="apt-attractions">
+          <div class="apt-attr"><span class="apt-attr-ico">🛒</span><div><span class="apt-attr-name">Mercato del Capo</span><span class="apt-attr-dist">80 mt · 1 min a piedi</span></div></div>
+          <div class="apt-attr"><span class="apt-attr-ico">⛪</span><div><span class="apt-attr-name">Palazzo dei Normanni</span><span class="apt-attr-dist">800 mt · 10 min</span></div></div>
+          <div class="apt-attr"><span class="apt-attr-ico">🏛️</span><div><span class="apt-attr-name">Quattro Canti UNESCO</span><span class="apt-attr-dist">700 mt · 9 min</span></div></div>
+          <div class="apt-attr"><span class="apt-attr-ico">🌿</span><div><span class="apt-attr-name">Orto Botanico</span><span class="apt-attr-dist">1.2 km · 15 min</span></div></div>
+          <div class="apt-attr"><span class="apt-attr-ico">🚗</span><div><span class="apt-attr-name">Via Sedie Volanti</span><span class="apt-attr-dist">200 mt · fratello Viotti</span></div></div>
+          <div class="apt-attr"><span class="apt-attr-ico">✈️</span><div><span class="apt-attr-name">Aeroporto Falcone</span><span class="apt-attr-dist">35 km · transfer €35</span></div></div>
+        </div>
+        <div class="apt-walkscore">🏘️ <strong>Quartiere Capo autentico</strong> — la Palermo che non si trova sulle guide</div>
+      </div>
+      <div class="apt-detail-btns">
+        <a href="mailto:lefuoriserieappartamenti@gmail.com?subject=Richiesta Casa Zagato" class="adb-main">Richiedi disponibilità →</a>
+        <a href="https://wa.me/393505108301?text=Ciao! Vorrei informazioni su Casa Zagato" target="_blank" rel="noopener" class="adb-ext">WhatsApp</a>
+        <a href="#contatti" class="adb-ext">Scrivici</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+</section>
+<div class="rule"></div>
+
+<!-- ═══════ TOUR SIGNATURE ═══════ -->
+<section class="s-tour" id="tour">
+  <div class="tour-bg"></div>
+  <div class="tour-side">
+    <span class="tour-eye">✦ Esperienza Esclusiva · Solo da Noi ✦</span>
+    <h2 class="tour-h2">Tour di Palermo<br><em>in Auto d'Epoca</em></h2>
+    <p class="tour-p">Vuoi rivivere l'atmosfera della Palermo antica? Una passeggiata pomeridiana o serale a bordo di un'auto del passato — coerente con lo spirito de "Le Fuoriserie". Un'esperienza che nessun altro host a Palermo può offrirti.</p>
+    <div class="tour-tags">
+      <span class="ttag">Fuori le Mura</span>
+      <span class="ttag">Passeggiata Florio</span>
+      <span class="ttag">Centro Storico</span>
+      <span class="ttag">Pomeriggio o Serata</span>
+    </div>
+    <div class="tour-btns">
+      <a href="mailto:lefuoriserieappartamenti@gmail.com?subject=Prenoto il Tour in Auto d'Epoca" class="btn-gold">Prenota il Tour</a>
+      <a href="https://wa.me/393505108301?text=Ciao Daniele! Vorrei prenotare il tour in auto d'epoca" target="_blank" rel="noopener" class="btn-ghost">WhatsApp →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ RECENSIONI ═══════ -->
+<section class="s-rec" id="recensioni">
+  <div class="sh">
+    <span class="sh-eye">✦ Cosa dicono i nostri ospiti ✦</span>
+    <h2 class="sh-h2">Recensioni <em>Verificate</em></h2>
+    <div class="sh-line"></div>
+  </div>
+  <div class="rec-scores">
+    <div class="rs-item">
+      <span class="rs-num">5.0</span>
+      <span class="rs-stars">★★★★★</span>
+      <span class="rs-plat">Airbnb</span>
+    </div>
+    <div class="rs-item">
+      <span class="rs-num">9.8</span>
+      <span class="rs-stars">★★★★★</span>
+      <span class="rs-plat">Booking.com</span>
+    </div>
+    <div class="rs-item">
+      <span class="rs-num">500+</span>
+      <span class="rs-stars" style="color:var(--grigio);font-size:0.6rem">ospiti dal 2019</span>
+      <span class="rs-plat">Dal 2019</span>
+    </div>
+  </div>
+  <!-- PLACEHOLDER: sostituire con recensioni reali copiate da Airbnb/Google -->
+  <div class="rec-grid">
+    <div class="rc">
+      <span class="rc-placeholder-badge">Da sostituire</span>
+      <div class="rc-stars">★★★★★</div>
+      <p class="rc-text">"Inserire qui una recensione reale copiata da Airbnb o Google. Sostituire nome, testo e appartamento con dati reali."</p>
+      <div class="rc-foot">
+        <div><div class="rc-name">Nome Ospite Reale</div><div class="rc-from">Nazionalità · via Airbnb</div></div>
+        <div class="rc-apt">Casa Monviso</div>
+      </div>
+    </div>
+    <div class="rc">
+      <span class="rc-placeholder-badge">Da sostituire</span>
+      <div class="rc-stars">★★★★★</div>
+      <p class="rc-text">"Inserire qui una recensione reale copiata da Airbnb o Google. Sostituire nome, testo e appartamento con dati reali."</p>
+      <div class="rc-foot">
+        <div><div class="rc-name">Nome Ospite Reale</div><div class="rc-from">Nazionalità · via Booking.com</div></div>
+        <div class="rc-apt">Casa Viotti</div>
+      </div>
+    </div>
+    <div class="rc">
+      <span class="rc-placeholder-badge">Da sostituire</span>
+      <div class="rc-stars">★★★★★</div>
+      <p class="rc-text">"Inserire qui una recensione reale copiata da Airbnb o Google. Sostituire nome, testo e appartamento con dati reali."</p>
+      <div class="rc-foot">
+        <div><div class="rc-name">Nome Ospite Reale</div><div class="rc-from">Nazionalità · via Google</div></div>
+        <div class="rc-apt">Casa Zagato</div>
+      </div>
+    </div>
+  </div>
+  <p class="rec-disclaimer">
+    Punteggi verificati su
+    <a href="https://www.airbnb.it/rooms/53511352" target="_blank">Airbnb</a> e
+    <a href="https://www.booking.com/hotel/it/casa-monviso-le-fuoriserie.it.html" target="_blank">Booking.com</a>
+  </p>
+</section>
+
+
+<!-- ═══════ PRENOTAZIONE DIRETTA · SMOOBU ═══════ -->
+<section class="s-book" id="prenota">
+  <div class="book-inner">
+
+    <!-- Lato testo -->
+    <div class="book-lato">
+      <span class="book-eye">✦ Zero Commissioni ✦</span>
+      <h2 class="book-h2">Prenota <em>Direttamente</em><br>dal Sito</h2>
+      <p class="book-p">Verifica la disponibilità in tempo reale e prenota senza intermediari. Stessa qualità di Airbnb e Booking — senza commissioni.</p>
+      <ul class="book-vantaggi">
+        <li><strong>Disponibilità in tempo reale</strong> — sincronizzata con Airbnb e Booking</li>
+        <li><strong>Nessuna commissione</strong> — risparmi fino al 18% sul totale</li>
+        <li><strong>Pagamento sicuro</strong> — carta di credito o bonifico</li>
+        <li><strong>Conferma immediata</strong> — risposta entro poche ore</li>
+        <li><strong>Contatto diretto</strong> — parli con Daniele, non con un call center</li>
+      </ul>
+      <div class="book-powered">
+        <span>⚙️</span>
+        <span>Calendario sincronizzato con Airbnb &amp; Booking.com tramite Smoobu Channel Manager</span>
+      </div>
+    </div>
+
+    <!-- Widget calendario -->
+    <div class="smoobu-wrap">
+
+      <!-- Barra superiore -->
+      <div class="smoobu-bar">
+        <span class="smoobu-bar-title">✦ Verifica Disponibilità</span>
+        <div class="smoobu-bar-live">
+          <div class="smoobu-dot"></div>
+          Aggiornato in tempo reale
+        </div>
+      </div>
+
+      <!-- Tab appartamenti -->
+      <div class="smoobu-apt-tabs">
+        <button class="sapt active" onclick="switchApt(this,'monviso')">Casa Monviso</button>
+        <button class="sapt" onclick="switchApt(this,'viotti')">Casa Viotti</button>
+        <button class="sapt" onclick="switchApt(this,'zagato')">Casa Zagato</button>
+      </div>
+
+      <!-- Calendario -->
+      <div class="smoobu-cal" id="smoobu-cal">
+        <div class="smoobu-cal-header">
+          <button class="smoobu-cal-nav" onclick="changeMonth(-1)">‹</button>
+          <div class="smoobu-cal-month" id="smoobu-month-label">Marzo 2026</div>
+          <button class="smoobu-cal-nav" onclick="changeMonth(1)">›</button>
+        </div>
+        <div class="smoobu-cal-grid" id="smoobu-grid">
+          <!-- Generato da JS -->
+        </div>
+      </div>
+
+      <!-- Legenda -->
+      <div class="smoobu-legend">
+        <div class="sleg"><div class="sleg-dot" style="background:rgba(200,168,75,.18);border:1px solid rgba(200,168,75,.4)"></div>Disponibile</div>
+        <div class="sleg"><div class="sleg-dot" style="background:var(--oro)"></div>Selezionato</div>
+        <div class="sleg"><div class="sleg-dot" style="background:rgba(200,168,75,.05);border:1px dashed rgba(200,168,75,.3)"></div>Occupato</div>
+      </div>
+
+      <!-- Form -->
+      <div class="smoobu-form">
+        <div class="sfrow">
+          <label class="sflbl">Check-in</label>
+          <input type="text" class="sfinput" id="sf-checkin" placeholder="Seleziona dal calendario" readonly>
+        </div>
+        <div class="sfrow">
+          <label class="sflbl">Check-out</label>
+          <input type="text" class="sfinput" id="sf-checkout" placeholder="Seleziona dal calendario" readonly>
+        </div>
+        <div class="sfrow">
+          <label class="sflbl">Ospiti</label>
+          <select class="sfinput">
+            <option>1 ospite</option><option selected>2 ospiti</option>
+            <option>3 ospiti</option><option>4 ospiti</option><option>5+ ospiti</option>
+          </select>
+        </div>
+        <div class="sfrow">
+          <label class="sflbl">Notti</label>
+          <input type="text" class="sfinput" id="sf-notti" placeholder="—" readonly>
+        </div>
+        <div class="smoobu-placeholder-notice">
+          📅 Questo calendario è un <strong>prototipo visivo</strong>.<br>
+          Una volta collegato a Smoobu mostrerà la disponibilità reale in tempo reale.
+        </div>
+        <button class="smoobu-cta" onclick="document.getElementById('contatti').scrollIntoView({behavior:'smooth'})">
+          Richiedi Disponibilità →
+        </button>
+        <div class="smoobu-note">oppure chiama/WhatsApp +39 350 510 8301</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- ═══════ PACCHETTI ═══════ -->
+<section class="s-pkg" id="pacchetti">
+  <div class="sh">
+    <span class="sh-eye" style="color:var(--oro)">✦ Offerte Esclusive ✦</span>
+    <h2 class="sh-h2" style="color:var(--crema)">Pacchetti <em style="color:var(--oro-lt)">su Misura</em></h2>
+    <div class="sh-line"></div>
+  </div>
+  <div class="pkg-grid">
+    <div class="pkg">
+      <div class="pkg-hot">Signature</div>
+      <img class="pkg-img" src="https://lefuoriserieappartamenti.com/wp-content/uploads/2023/10/fuori-le-mura.jpg" alt="Pacchetto Fuoriserie — Tour auto d'epoca Palermo">
+      <div class="pkg-body">
+        <span class="pkg-ico">🚗</span>
+        <span class="pkg-eye">✦ Il più richiesto</span>
+        <div class="pkg-name">Pacchetto Fuoriserie</div>
+        <p class="pkg-desc">Appartamento a scelta + Tour in auto d'epoca + Passeggiata Florio + Cena tipica siciliana per 2 in appartamento.</p>
+        <a href="#contatti" class="pkg-cta">Richiedi →</a>
+      </div>
+    </div>
+    <div class="pkg">
+      <img class="pkg-img" src="https://lefuoriserieappartamenti.com/wp-content/uploads/2021/11/palermo-centro-storico-_9673_850x0.jpg" alt="Pacchetto Luna di Miele Palermo">
+      <div class="pkg-body">
+        <span class="pkg-ico">💍</span>
+        <span class="pkg-eye">✦ Coppie</span>
+        <div class="pkg-name">Luna di Miele</div>
+        <p class="pkg-desc">Casa Monviso nel Palazzo Procida + Serata romantica + Kit benvenuto siciliano + Transfer aeroporto + Colazione per 2.</p>
+        <a href="#contatti" class="pkg-cta">Richiedi →</a>
+      </div>
+    </div>
+    <div class="pkg">
+      <img class="pkg-img" src="https://lefuoriserieappartamenti.com/wp-content/uploads/2022/09/img-20220709-wa0031.jpg" alt="Pacchetto Famiglia Palermo">
+      <div class="pkg-body">
+        <span class="pkg-ico">👨‍👩‍👧‍👦</span>
+        <span class="pkg-eye">✦ Famiglie</span>
+        <div class="pkg-name">Famiglia Siciliana</div>
+        <p class="pkg-desc">Casa Viotti fino a 8 persone + Biciclette per tutti + Tour mercato del Capo + Kit prodotti tipici locali.</p>
+        <a href="#contatti" class="pkg-cta">Richiedi →</a>
+      </div>
+    </div>
+    <div class="pkg">
+      <div class="pkg-hot">Last Minute</div>
+      <img class="pkg-img" src="https://lefuoriserieappartamenti.com/wp-content/uploads/2021/11/8c76-the-vucciria-street-market-in-palermo1.jpg" alt="Settimana a Palermo">
+      <div class="pkg-body">
+        <span class="pkg-ico">🍋</span>
+        <span class="pkg-eye">✦ Settimana</span>
+        <div class="pkg-name">Sicilia Autentica</div>
+        <p class="pkg-desc">7 notti + Tour storico + Pranzo e cena tipica + Noleggio bici 3 giorni + Mappa personalizzata di Daniele.</p>
+        <a href="#contatti" class="pkg-cta">Richiedi →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ SERVIZI ═══════ -->
+<section class="s-srv" id="servizi">
+  <div class="sh">
+    <span class="sh-eye">✦ Personalizza il soggiorno ✦</span>
+    <h2 class="sh-h2">Servizi <em>&amp; Extra</em></h2>
+    <div class="sh-line"></div>
+  </div>
+  <div class="srv-grid">
+    <div class="srv-card">
+      <div class="srv-ico">🚲</div>
+      <div class="srv-name">Noleggio Biciclette</div>
+      <p class="srv-desc">Esplora Palermo in libertà su due ruote. Disponibile per tutti gli ospiti.</p>
+      <ul class="srv-prices">
+        <li>1 giorno — <strong>€ 10</strong></li>
+        <li>3 giorni — <strong>€ 20</strong></li>
+        <li>6 giorni — <strong>€ 40</strong></li>
+        <li>All inclusive — <strong>€ 60</strong></li>
+        <li>Con accompagnatore — <strong>€ 100</strong></li>
+      </ul>
+    </div>
+    <div class="srv-card">
+      <div class="srv-ico">🍽️</div>
+      <div class="srv-name">Ristorazione in Appartamento</div>
+      <p class="srv-desc">Autentica cucina siciliana preparata e consegnata direttamente nella tua dimora.</p>
+      <ul class="srv-prices">
+        <li>Colazione per 2 — <strong>€ 10</strong></li>
+        <li>Pranzo per 2 — <strong>€ 35</strong></li>
+        <li>Cena per 2 — <strong>€ 35</strong></li>
+      </ul>
+    </div>
+    <div class="srv-card">
+      <div class="srv-ico">🌹</div>
+      <div class="srv-name">Serata Romantica</div>
+      <p class="srv-desc">Una serata su misura per la coppia. Dettagli, atmosfera e sorprese curate da Daniele.</p>
+      <ul class="srv-prices">
+        <li>Preventivo personalizzato</li>
+      </ul>
+    </div>
+    <div class="srv-card">
+      <div class="srv-ico">🚗</div>
+      <div class="srv-name">Transfer Aeroporto</div>
+      <p class="srv-desc">Servizio NCC privato da/per Aeroporto Falcone-Borsellino (35 km). Puntuale e senza stress.</p>
+      <ul class="srv-prices">
+        <li>Da <strong>€ 35</strong> / tratta</li>
+      </ul>
+    </div>
+    <div class="srv-card">
+      <div class="srv-ico">🍊</div>
+      <div class="srv-name">Kit Benvenuto Siciliano</div>
+      <p class="srv-desc">Arancine, cannoli, vino DOC, miele e prodotti tipici selezionati ad attenderti all'arrivo.</p>
+      <ul class="srv-prices">
+        <li><strong>€ 35</strong> / kit</li>
+      </ul>
+    </div>
+    <div class="srv-card">
+      <div class="srv-ico">⏰</div>
+      <div class="srv-name">Early / Late Check</div>
+      <p class="srv-desc">Massima flessibilità sugli orari di entrata e uscita, su disponibilità dell'appartamento.</p>
+      <ul class="srv-prices">
+        <li><strong>€ 20</strong> / opzione</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ OFFERTE ═══════ -->
+<section class="s-off" id="offerte">
+  <div class="sh">
+    <span class="sh-eye">✦ Scegli il momento perfetto ✦</span>
+    <h2 class="sh-h2">Offerte <em>Stagionali</em></h2>
+    <div class="sh-line"></div>
+  </div>
+  <div class="off-grid">
+    <div class="off big">
+      <div class="off-pill">-15%<small>sconto</small></div>
+      <img class="off-img" src="https://lefuoriserieappartamenti.com/wp-content/uploads/2021/12/teatro_natale_normal.jpg" alt="Natale a Palermo — offerta appartamenti">
+      <div class="off-body">
+        <span class="off-per">✦ Dicembre · Natale</span>
+        <div class="off-name">Natale a Palermo</div>
+        <p class="off-desc">Presepi viventi, zampognari e mercatini nel centro storico. Offerta valida per soggiorni minimi di 3 notti nel mese di dicembre.</p>
+        <a href="#contatti" class="off-link">Richiedi →</a>
+      </div>
+    </div>
+    <div class="off">
+      <div class="off-pill" style="background:var(--oro-dk)">VIP</div>
+      <img class="off-img" src="https://lefuoriserieappartamenti.com/wp-content/uploads/2021/12/servizio-in-camera-1.jpg" alt="Capodanno a Palermo">
+      <div class="off-body">
+        <span class="off-per">✦ 31 Dicembre</span>
+        <div class="off-name">Capodanno in Sicilia</div>
+        <p class="off-desc">Cena tipica in appartamento, brindisi e fuochi d'artificio sul Foro Italico.</p>
+        <a href="#contatti" class="off-link">Richiedi →</a>
+      </div>
+    </div>
+    <div class="off">
+      <div class="off-pill">-10%<small>estate</small></div>
+      <img class="off-img" src="https://lefuoriserieappartamenti.com/wp-content/uploads/2021/11/8c76-the-vucciria-street-market-in-palermo1.jpg" alt="Estate a Palermo — settimana intera">
+      <div class="off-body">
+        <span class="off-per">✦ Giugno · Settembre</span>
+        <div class="off-name">Settimana a Palermo</div>
+        <p class="off-desc">7 notti con sconto prenotazione diretta. Include biciclette e mappa personale dei quartieri curata da Daniele.</p>
+        <a href="#contatti" class="off-link">Richiedi →</a>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="rule"></div>
+
+<!-- ═══════ STORIA ═══════ -->
+<section class="s-sto" id="storia">
+  <div class="sto-inner">
+    <div class="sto-photo-wrap">
+      <img class="sto-photo" src="https://lefuoriserieappartamenti.com/wp-content/uploads/2021/12/img_20190102_180535_504.jpg" alt="Daniele Mancuso — proprietario Le Fuoriserie Appartamenti Palermo">
+      <div class="sto-frame"></div>
+      <div class="sto-mono">D</div>
+    </div>
+    <div>
+      <span class="sh-eye" style="text-align:left;display:block;margin-bottom:.7rem">✦ Chi siamo ✦</span>
+      <h2 class="sto-h2">Da un sogno<br>nasce <em>un'idea</em></h2>
+      <p class="sto-p">Sono un amante del viaggiare e dei bei posti. Mi piace creare ambienti particolari e fuori dal comune in cui far alloggiare i miei ospiti. Essendo un appassionato del vintage, dell'arte e del bello, inserisco sempre uno di questi elementi nell'arredare e arricchire con stile gli alloggi.</p>
+      <p class="sto-p">Ho chiamato la mia catena di alloggi <strong style="color:var(--oro-lt)">"Le Fuoriserie"</strong> — le automobili allestite su ordinazione da prestigiosi carrozzieri del dopoguerra. Come quelle auto, ogni appartamento è un pezzo unico e irripetibile.</p>
+      <div class="sto-quote">…da un sogno nasce un'idea, da un'idea nasce un progetto e dal progetto si realizza il sogno…</div>
+      <div class="sto-tags">
+        <span class="sto-tag">Monviso</span><span class="sto-tag">Viotti</span><span class="sto-tag">Zagato</span>
+        <span class="sto-tag">Garavini</span><span class="sto-tag">Vignale</span><span class="sto-tag">Ghia</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ CONTATTI ═══════ -->
+<section class="s-cnt" id="contatti">
+  <div class="cnt-map">
+    <div class="map-static">
+      <div class="map-overlay">
+        <div class="map-card">
+          <div class="map-pin-ico">📍</div>
+          <div class="map-title">Le Fuoriserie · Palermo</div>
+          <div class="map-sub">Centro Storico UNESCO</div>
+          <div class="map-sedi-list">
+            <div class="map-sede-row"><span class="map-dot" style="background:var(--oro)"></span><div><strong>Casa Monviso</strong><br><span>Via del Ponticello, 5</span></div></div>
+            <div class="map-sede-row"><span class="map-dot" style="background:var(--terra)"></span><div><strong>Casa Viotti</strong><br><span>Via Sedie Volanti, 14</span></div></div>
+            <div class="map-sede-row"><span class="map-dot" style="background:var(--verde)"></span><div><strong>Casa Zagato</strong><br><span>Via Ciullo D'Alcamo, 6</span></div></div>
+          </div>
+          <div class="map-btns">
+            <a href="https://www.google.com/maps/search/Le+Fuoriserie+Palermo/@38.1141904,13.3622901,16z" target="_blank" rel="noopener" class="map-btn">🗺️ Google Maps</a>
+            <a href="https://maps.apple.com/?q=Le+Fuoriserie+Palermo&ll=38.1141904,13.3622901" target="_blank" rel="noopener" class="map-btn map-btn-2">🍎 Apple Maps</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cnt-side">
+    <span class="sh-eye" style="text-align:left;display:block;margin-bottom:.5rem">✦ Siamo qui per te ✦</span>
+    <h2 class="cnt-h2">Parliamo del tuo<br><em>Soggiorno Ideale</em></h2>
+    <p class="cnt-sub">Scrivici per disponibilità, pacchetti o qualsiasi domanda. Risposta garantita entro poche ore.</p>
+    <div class="ct-row">
+      <div class="ct-ic">📞</div>
+      <div><span class="ct-lbl">Telefono &amp; WhatsApp</span><div class="ct-val"><a href="tel:+393505108301">+39 350 510 8301</a></div></div>
+    </div>
+    <div class="ct-row">
+      <div class="ct-ic">✉️</div>
+      <div><span class="ct-lbl">Email</span><div class="ct-val"><a href="mailto:lefuoriserieappartamenti@gmail.com">lefuoriserieappartamenti@gmail.com</a></div></div>
+    </div>
+    <div class="sedi">
+      <div class="sede"><div class="sede-n">Casa Monviso</div><div class="sede-a">Via del Ponticello, 5 — Palermo 90100</div></div>
+      <div class="sede"><div class="sede-n">Casa Viotti</div><div class="sede-a">Via Sedie Volanti, 14 — Palermo 90100</div></div>
+      <div class="sede"><div class="sede-n">Casa Zagato</div><div class="sede-a">Via Ciullo D'Alcamo, 6 — Palermo 90100</div></div>
+    </div>
+    <!-- Form collegato a Formspree — sostituire YOUR_FORM_ID con ID reale da formspree.io -->
+    <form class="cf" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" id="contactForm">
+      <input type="text" name="nome" class="cfi" placeholder="Nome" required>
+      <input type="text" name="cognome" class="cfi" placeholder="Cognome" required>
+      <input type="email" name="email" class="cfi full" placeholder="Email *" required>
+      <input type="tel" name="telefono" class="cfi full" placeholder="WhatsApp / Telefono">
+      <select name="appartamento" class="cfi full">
+        <option value="">Appartamento di interesse…</option>
+        <option>Casa Monviso</option>
+        <option>Casa Viotti</option>
+        <option>Casa Zagato</option>
+        <option>Non ho ancora scelto</option>
+      </select>
+      <textarea name="messaggio" class="cfi cft full" placeholder="Date, numero ospiti, richieste speciali…"></textarea>
+      <button type="submit" class="cfs">Invia Messaggio ✦</button>
+      <div class="form-success" id="formSuccess">
+        ✦ Messaggio inviato! Ti risponderemo entro poche ore.
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ═══════ FOOTER ═══════ -->
+<footer>
+  <div class="ft-grid">
+    <div>
+      <div class="ft-brand">Le Fuoriserie</div>
+      <span class="ft-sub">Appartamenti di Charme · Palermo, Sicilia</span>
+      <p class="ft-desc">Dimore nel cuore storico di Palermo. Ogni appartamento porta il nome di un leggendario carrozziere italiano del dopoguerra — come quelle auto, ogni soggiorno è unico.</p>
+      <div class="ft-soc">
+        <a href="https://www.facebook.com/lefuoriserie" target="_blank" rel="noopener" class="ftsc">f</a>
+        <a href="https://www.instagram.com/lefuoriserie" target="_blank" rel="noopener" class="ftsc">ig</a>
+        <a href="https://wa.me/393505108301" target="_blank" rel="noopener" class="ftsc">wa</a>
+      </div>
+    </div>
+    <div class="ft-col">
+      <h4>Appartamenti</h4>
+      <ul>
+        <li><a href="#monviso">Casa Monviso</a></li>
+        <li><a href="#viotti">Casa Viotti</a></li>
+        <li><a href="#zagato">Casa Zagato</a></li>
+      </ul>
+    </div>
+    <div class="ft-col">
+      <h4>Esperienze</h4>
+      <ul>
+        <li><a href="#tour">Tour Auto d'Epoca</a></li>
+        <li><a href="#tour">Passeggiata Florio</a></li>
+        <li><a href="#pacchetti">Pacchetti Tematici</a></li>
+        <li><a href="#offerte">Offerte Stagionali</a></li>
+      </ul>
+    </div>
+    <div class="ft-col">
+      <h4>Info Utili</h4>
+      <ul>
+        <li><a href="#servizi">Servizi &amp; Prezzi</a></li>
+        <li><a href="#storia">La Nostra Storia</a></li>
+        <li><a href="#contatti">Contatti</a></li>
+        <li><a href="https://www.airbnb.it/rooms/53511352" target="_blank" rel="noopener">Airbnb — Monviso</a></li>
+        <li><a href="https://www.airbnb.it/rooms/665623237269809912" target="_blank" rel="noopener">Airbnb — Viotti</a></li>
+        <li><a href="https://www.booking.com/hotel/it/casa-monviso-le-fuoriserie.it.html" target="_blank" rel="noopener">Booking — Monviso</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- Note legali — da completare con dati reali -->
+  <p class="ft-legal" style="max-width:1180px;margin:0 auto 1.5rem">
+    <strong style="color:rgba(246,238,216,.35)">Le Fuoriserie Appartamenti</strong> · Titolare: Daniele Mancuso ·
+    P.IVA: <em style="color:rgba(200,168,75,.4)">[da inserire]</em> ·
+    CIR: <em style="color:rgba(200,168,75,.4)">[da inserire per ogni appartamento]</em> ·
+    <a href="#contatti" style="color:rgba(200,168,75,.4)">Privacy Policy</a> ·
+    <a href="#contatti" style="color:rgba(200,168,75,.4)">Cookie Policy</a>
+  </p>
+  <div class="ft-bot">
+    <span>© 2025 Le Fuoriserie Appartamenti · Palermo, Sicilia</span>
+    <span>
+      <a href="tel:+393505108301">+39 350 510 8301</a> ·
+      <a href="mailto:lefuoriserieappartamenti@gmail.com">lefuoriserieappartamenti@gmail.com</a>
+    </span>
+  </div>
+</footer>
+
+</div><!-- /site-wrap -->
+
+<!-- WHATSAPP FAB -->
+<a href="https://wa.me/393505108301?text=Ciao%20Daniele!%20Vorrei%20informazioni%20sugli%20appartamenti%20Le%20Fuoriserie." class="wa-fab" target="_blank" rel="noopener" aria-label="Contattaci su WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script>
+// ── Nav scroll ──
+window.addEventListener('scroll', function(){
+  document.getElementById('mainNav').classList.toggle('solid', window.scrollY > 80);
+});
+
+// ── Chiudi menu al click su link overlay ──
+document.querySelectorAll('.nav-ov-inner a').forEach(function(a){
+  a.addEventListener('click', function(){
+    document.getElementById('nav-cb').checked = false;
+  });
+});
+
+// ── Date defaults ──
+var today = new Date().toISOString().split('T')[0];
+var tomorrow = new Date(Date.now()+86400000).toISOString().split('T')[0];
+var ci = document.getElementById('hbi'), co = document.getElementById('hbo');
+if(ci) ci.value = today;
+if(co) co.value = tomorrow;
+if(ci) ci.addEventListener('change', function(){
+  if(co && co.value <= ci.value){
+    var d = new Date(ci.value); d.setDate(d.getDate()+1);
+    co.value = d.toISOString().split('T')[0];
+  }
+});
+
+// ── Scroll helper ──
+function scrollTo(id){
+  var el = document.getElementById(id);
+  if(el) el.scrollIntoView({behavior:'smooth'});
+}
+
+// ── Form submit con Formspree ──
+var form = document.getElementById('contactForm');
+if(form){
+  form.addEventListener('submit', function(e){
+    var action = form.getAttribute('action');
+    // Se non è ancora configurato Formspree, usa mailto come fallback
+    if(action.indexOf('YOUR_FORM_ID') !== -1){
+      e.preventDefault();
+      var nome = form.querySelector('[name="nome"]').value;
+      var email = form.querySelector('[name="email"]').value;
+      var msg = form.querySelector('[name="messaggio"]').value;
+      var apt = form.querySelector('[name="appartamento"]').value;
+      window.location.href = 'mailto:lefuoriserieappartamenti@gmail.com'
+        + '?subject=Richiesta da ' + encodeURIComponent(nome)
+        + (apt ? ' — ' + encodeURIComponent(apt) : '')
+        + '&body=' + encodeURIComponent(msg + '\n\nRispondi a: ' + email);
+    }
+  });
+}
+
+// ── Language toggle ──
+var currentLang = 'it';
+function setLang(lang){
+  currentLang = lang;
+  document.querySelectorAll('.txt-it').forEach(function(el){
+    el.style.display = lang === 'it' ? '' : 'none';
+  });
+  document.querySelectorAll('.txt-en').forEach(function(el){
+    el.style.display = lang === 'en' ? '' : 'none';
+  });
+  document.querySelectorAll('.lang-btn').forEach(function(btn){
+    btn.classList.toggle('active', btn.textContent.trim() === lang.toUpperCase());
+  });
+}
+</script>
+
+<script>
+// ═══ CALENDARIO SMOOBU INTERATTIVO ═══
+var currentYear = 2026, currentMonth = 2; // marzo = 2 (0-indexed)
+var selStart = null, selEnd = null;
+var currentApt = 'monviso';
+
+// Date occupate simulate per appartamento (formato YYYY-MM-DD)
+var occupate = {
+  monviso: [
+    '2026-03-05','2026-03-06','2026-03-07',
+    '2026-03-12','2026-03-13','2026-03-14','2026-03-15',
+    '2026-03-22','2026-03-23',
+    '2026-04-01','2026-04-02','2026-04-03','2026-04-04','2026-04-05',
+    '2026-04-10','2026-04-11',
+  ],
+  viotti: [
+    '2026-03-08','2026-03-09','2026-03-10',
+    '2026-03-19','2026-03-20','2026-03-21',
+    '2026-04-06','2026-04-07','2026-04-08',
+  ],
+  zagato: [
+    '2026-03-01','2026-03-02','2026-03-03',
+    '2026-03-16','2026-03-17','2026-03-18',
+    '2026-03-28','2026-03-29','2026-03-30',
+    '2026-04-12','2026-04-13',
+  ]
+};
+
+var mesi = ['Gennaio','Febbraio','Marzo','Aprile','Maggio','Giugno',
+            'Luglio','Agosto','Settembre','Ottobre','Novembre','Dicembre'];
+var giorni = ['Lu','Ma','Me','Gi','Ve','Sa','Do'];
+
+function toKey(y,m,d){
+  return y+'-'+String(m+1).padStart(2,'0')+'-'+String(d).padStart(2,'0');
+}
+function isOcc(y,m,d){
+  return (occupate[currentApt]||[]).indexOf(toKey(y,m,d)) !== -1;
+}
+function isPast(y,m,d){
+  var today = new Date(); today.setHours(0,0,0,0);
+  return new Date(y,m,d) < today;
+}
+function isToday(y,m,d){
+  var t = new Date(); 
+  return t.getFullYear()===y && t.getMonth()===m && t.getDate()===d;
+}
+function inRange(y,m,d){
+  if(!selStart||!selEnd) return false;
+  var dt = new Date(y,m,d);
+  var a = new Date(selStart.y,selStart.m,selStart.d);
+  var b = new Date(selEnd.y,selEnd.m,selEnd.d);
+  return dt > a && dt < b;
+}
+function isSel(y,m,d){
+  if(selStart && selStart.y===y && selStart.m===m && selStart.d===d) return true;
+  if(selEnd && selEnd.y===y && selEnd.m===m && selEnd.d===d) return true;
+  return false;
+}
+function formatDate(obj){
+  if(!obj) return '';
+  return String(obj.d).padStart(2,'0')+'/'+String(obj.m+1).padStart(2,'0')+'/'+obj.y;
+}
+function countNights(){
+  if(!selStart||!selEnd) return '';
+  var a = new Date(selStart.y,selStart.m,selStart.d);
+  var b = new Date(selEnd.y,selEnd.m,selEnd.d);
+  var n = Math.round((b-a)/(1000*60*60*24));
+  return n > 0 ? n+' nott'+(n===1?'e':'i') : '';
+}
+
+function renderCal(){
+  document.getElementById('smoobu-month-label').textContent = mesi[currentMonth]+' '+currentYear;
+  var grid = document.getElementById('smoobu-grid');
+  grid.innerHTML = '';
+  giorni.forEach(function(g){
+    var h = document.createElement('div');
+    h.className='sgd-head'; h.textContent=g; grid.appendChild(h);
+  });
+  var firstDay = new Date(currentYear,currentMonth,1).getDay();
+  firstDay = (firstDay+6)%7; // Lunedì=0
+  for(var i=0;i<firstDay;i++){
+    var e=document.createElement('div');e.className='sgd sgd-empty';grid.appendChild(e);
+  }
+  var daysInMonth = new Date(currentYear,currentMonth+1,0).getDate();
+  for(var d=1;d<=daysInMonth;d++){
+    var div=document.createElement('div');
+    div.className='sgd';div.textContent=d;
+    (function(dd){
+      if(isPast(currentYear,currentMonth,dd)){
+        div.classList.add('sgd-past');
+      } else if(isOcc(currentYear,currentMonth,dd)){
+        div.classList.add('sgd-occ');
+      } else {
+        if(isSel(currentYear,currentMonth,dd)) div.classList.add('sgd-sel');
+        else if(inRange(currentYear,currentMonth,dd)) div.classList.add('sgd-range');
+        else if(isToday(currentYear,currentMonth,dd)) div.classList.add('sgd-today');
+        div.addEventListener('click',function(){ clickDay(currentYear,currentMonth,dd); });
+      }
+    })(d);
+    grid.appendChild(div);
+  }
+  document.getElementById('sf-checkin').value = formatDate(selStart);
+  document.getElementById('sf-checkout').value = formatDate(selEnd);
+  document.getElementById('sf-notti').value = countNights();
+}
+
+function clickDay(y,m,d){
+  if(!selStart || selEnd){
+    selStart={y:y,m:m,d:d}; selEnd=null;
+  } else {
+    var a=new Date(selStart.y,selStart.m,selStart.d);
+    var b=new Date(y,m,d);
+    if(b<=a){ selStart={y:y,m:m,d:d}; selEnd=null; }
+    else { selEnd={y:y,m:m,d:d}; }
+  }
+  renderCal();
+}
+
+function changeMonth(dir){
+  currentMonth+=dir;
+  if(currentMonth>11){currentMonth=0;currentYear++;}
+  if(currentMonth<0){currentMonth=11;currentYear--;}
+  renderCal();
+}
+
+function switchApt(btn,apt){
+  document.querySelectorAll('.sapt').forEach(function(b){b.classList.remove('active');});
+  btn.classList.add('active');
+  currentApt=apt; selStart=null; selEnd=null;
+  renderCal();
+}
+
+renderCal();
+</script>
+
+</body>
+</html>
